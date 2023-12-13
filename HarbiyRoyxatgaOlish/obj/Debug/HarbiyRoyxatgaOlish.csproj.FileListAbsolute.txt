@@ -1,0 +1,13 @@
+C:\Users\Abdussomad\source\repos\HarbiyRoyxatgaOlish\HarbiyRoyxatgaOlish\bin\Debug\HarbiyRoyxatgaOlish.exe.config
+C:\Users\Abdussomad\source\repos\HarbiyRoyxatgaOlish\HarbiyRoyxatgaOlish\bin\Debug\HarbiyRoyxatgaOlish.exe
+C:\Users\Abdussomad\source\repos\HarbiyRoyxatgaOlish\HarbiyRoyxatgaOlish\bin\Debug\HarbiyRoyxatgaOlish.pdb
+C:\Users\Abdussomad\source\repos\HarbiyRoyxatgaOlish\HarbiyRoyxatgaOlish\obj\Debug\HarbiyRoyxatgaOlish.csproj.AssemblyReference.cache
+C:\Users\Abdussomad\source\repos\HarbiyRoyxatgaOlish\HarbiyRoyxatgaOlish\obj\Debug\HarbiyRoyxatgaOlish.Form1.resources
+C:\Users\Abdussomad\source\repos\HarbiyRoyxatgaOlish\HarbiyRoyxatgaOlish\obj\Debug\HarbiyRoyxatgaOlish.Properties.Resources.resources
+C:\Users\Abdussomad\source\repos\HarbiyRoyxatgaOlish\HarbiyRoyxatgaOlish\obj\Debug\HarbiyRoyxatgaOlish.csproj.GenerateResource.cache
+C:\Users\Abdussomad\source\repos\HarbiyRoyxatgaOlish\HarbiyRoyxatgaOlish\obj\Debug\HarbiyRoyxatgaOlish.csproj.CoreCompileInputs.cache
+C:\Users\Abdussomad\source\repos\HarbiyRoyxatgaOlish\HarbiyRoyxatgaOlish\obj\Debug\HarbiyRoyxatgaOlish.exe
+C:\Users\Abdussomad\source\repos\HarbiyRoyxatgaOlish\HarbiyRoyxatgaOlish\obj\Debug\HarbiyRoyxatgaOlish.pdb
+C:\Users\Abdussomad\source\repos\HarbiyRoyxatgaOlish\HarbiyRoyxatgaOlish\bin\Debug\Guna.UI2.dll
+C:\Users\Abdussomad\source\repos\HarbiyRoyxatgaOlish\HarbiyRoyxatgaOlish\obj\Debug\HarbiyRoyxatgaOlish.csproj.CopyComplete
+C:\Users\Abdussomad\source\repos\HarbiyRoyxatgaOlish\HarbiyRoyxatgaOlish\obj\Debug\HarbiyRoyxatgaOlish.Forms.QoshimchaMalumotlar.resources
