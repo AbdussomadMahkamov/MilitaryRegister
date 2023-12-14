@@ -52,6 +52,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Forms\HarbiyRoyxatgaOlish.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\HarbiyRoyxatgaOlish.Designer.cs">
+      <DependentUpon>HarbiyRoyxatgaOlish.cs</DependentUpon>
+    </Compile>
     <Compile Include="Forms\QoshimchaMalumotlar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -67,6 +73,9 @@
     <Compile Include="Functions.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Forms\HarbiyRoyxatgaOlish.resx">
+      <DependentUpon>HarbiyRoyxatgaOlish.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Forms\LoginForm.resx">
       <DependentUpon>LoginForm.cs</DependentUpon>
     </EmbeddedResource>
