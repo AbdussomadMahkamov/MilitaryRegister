@@ -23,8 +23,8 @@ namespace HarbiyRoyxatgaOlish.Forms
             GetViloyatMahalla();
             GetTumanMahalla();
 
-            GetViloyatFuqaro();
-            GetTumanFuqaro();
+            //GetViloyatFuqaro();
+            //GetTumanFuqaro();
             GetMahallaFuqaro();
         }
         public void ShowTable(string JadvalNomi)
@@ -48,11 +48,15 @@ namespace HarbiyRoyxatgaOlish.Forms
                     GetTumanMahalla();
                     break;
                 case "Fuqaro":
-                    Query = "Select F.Id,F.Ism, F.Familya, F.Sharif, F.Jinsi, F.TugulganSana, F.Epochta, F.Yoshi, Tuman.Nomi, Viloyat.Nomi From Fuqarolar as F INNER JOIN Tuman on Tuman.Id=F.YashashManzilId INNER Join Viloyat on Viloyat.Id=Tuman.ViloyatId";
+                    Query = "Select F.Id,F.Ism, F.Familya, F.Sharif, F.Jinsi, F.TugulganSana, F.Epochta, F.Yoshi, F.Manzili, Mahalla.Nomi, Tuman.Nomi, Viloyat.Nomi From Fuqarolar as F INNER JOIN Mahalla on Mahalla.Id=F.YashashManzilId INNER JOIN Tuman on Tuman.Id=Mahalla.TumanId INNER Join Viloyat on Viloyat.Id=Tuman.ViloyatId";
                     fuqaroData.DataSource = Con.GetData(Query);
-                    GetViloyatFuqaro();
-                    GetTumanFuqaro();
+                    //GetViloyatFuqaro();
+                    //GetTumanFuqaro();
                     GetMahallaFuqaro();
+                    break;
+                case "Users":
+                    Query = "select Fuqarolar.Ism, Fuqarolar.Familya, Fuqarolar.Sharif, U.Login, U.Parol, U.Lavozim from Users as U inner join Fuqarolar on Fuqarolar.Id=U.FuqaroId;";
+                    userData.DataSource = Con.GetData(Query);
                     break;
                 default: break;
             }
@@ -111,6 +115,10 @@ namespace HarbiyRoyxatgaOlish.Forms
             if (guna2TabControl1.SelectedTab == fuqaroTab)
             {
                 ShowTable("Fuqaro");
+            }
+            if (guna2TabControl1.SelectedTab == userTab)
+            {
+                ShowTable("Users");
             }
         }
         int Key = 0;
@@ -443,20 +451,23 @@ namespace HarbiyRoyxatgaOlish.Forms
         }
         //Mahalla oynasi yakunlandi.
         //Fuqaro oynasi uchun
-        private void GetViloyatFuqaro()
-        {
-            string Query = "select * from Viloyat";
-            viloyatComboFuqaro.DisplayMember = Con.GetData(Query).Columns["Nomi"].ToString();
-            viloyatComboFuqaro.ValueMember = Con.GetData(Query).Columns["Id"].ToString();
-            viloyatComboFuqaro.DataSource = Con.GetData(Query);
-        }
-        private void GetTumanFuqaro()
-        {
-            string Query = "select * from Tuman";
-            tumanComboFuqaro.DisplayMember = Con.GetData(Query).Columns["Nomi"].ToString();
-            tumanComboFuqaro.ValueMember = Con.GetData(Query).Columns["Id"].ToString();
-            tumanComboFuqaro.DataSource = Con.GetData(Query);
-        }
+
+        //private void GetViloyatFuqaro()
+        //{
+        //    string Query = "select * from Viloyat";
+        //    viloyatComboFuqaro.DisplayMember = Con.GetData(Query).Columns["Nomi"].ToString();
+        //    viloyatComboFuqaro.ValueMember = Con.GetData(Query).Columns["Id"].ToString();
+        //    viloyatComboFuqaro.DataSource = Con.GetData(Query);
+        //}
+        //private void GetTumanFuqaro()
+        //{
+        //    string Query = "select * from Tuman";
+        //    tumanComboFuqaro.DisplayMember = Con.GetData(Query).Columns["Nomi"].ToString();
+        //    tumanComboFuqaro.ValueMember = Con.GetData(Query).Columns["Id"].ToString();
+        //    tumanComboFuqaro.DataSource = Con.GetData(Query);
+        //}
+
+        int KeyFuqaro = 0;
         private void GetMahallaFuqaro()
         {
             string Query = "select * from Mahalla";
@@ -467,7 +478,91 @@ namespace HarbiyRoyxatgaOlish.Forms
 
         private void addButtonFuqaro_Click(object sender, EventArgs e)
         {
+            try
+            {
+                if (ismText.Text == "" ||  mahallaComboFuqaro.SelectedIndex == -1 || jinsiComboFuqaro.SelectedIndex == -1 || malumotiComboFuqaro.SelectedIndex == -1)
+                {
+                    MessageBox.Show("Iltimos maydonni ma'lumot bilan to'ldiring", "Bildirishnoma");
+                }
+                else
+                {
+                    string ism = ismText.Text;
+                    string familya = familyaText.Text;
+                    string sharif = sharifText.Text;
+                    string mahalla = mahallaComboFuqaro.SelectedValue.ToString();
+                    string yili = yoshiDateFuqaro.ToString();
+                    string pochta = epochtaText.Text;
+                    string manzil = manzilText.Text;
+                    int yoshi = Convert.ToInt32(yoshiText.Text);
+                    //string[] yoshiM = yili.Split('.');
+                    //yili = "";
+                    //int i = 3;
+                    //while (i > 0)
+                    //{
+                    //    if (i == 1)
+                    //    {
+                    //        yili += yoshiM[i - 1];
+                    //    }
+                    //    else
+                    //    {
+                    //        yili += yoshiM[i - 1] + "/";
+                    //    }
+                    //    i--;
+                    //}
+                    //DateTime dob = Convert.ToDateTime(yili);
+                    //int Yoshi = new DateTime(DateTime.Now.Subtract(dob).Ticks).Year - 1;
+                    //MessageBox.Show(Yoshi.ToString());
+                    string Query1 = "select * from Fuqarolar where Ism='"+ism+"' and Familya='"+familya+"' and Sharif='"+sharif+"' and YashashManzilId='"+mahalla+"' and Manzili='"+manzil+"'";
+                    DataTable dt = new DataTable();
+                    dt = Con.GetData(Query1);
+                    if (dt.Rows.Count > 0)
+                    {
+                        MessageBox.Show("Oldin saqlangan", "Eslatma");
+                    }
+                    else
+                    {
+                        string Query = "insert into Fuqarolar values('{0}', '{1}','{2}', '{3}','{4}','{5}','{6}','{7}','{8}', '{9}')";
+                        Query = string.Format(Query, ism, familya, sharif, yoshiDateFuqaro.Text, jinsiComboFuqaro.SelectedItem.ToString(), malumotiComboFuqaro.SelectedItem.ToString(), 23, mahalla, pochta, manzil);
+                        Con.SetData(Query);
+                        ShowTable("Fuqaro");
+                        MessageBox.Show("Ma'lumotlar muvoffaqiyatli saqlndi", "Bildirishnoma");
+                        ismText.Text = "";
+                        familyaText.Text = "";
+                        sharifText.Text = "";
+                        epochtaText.Text = "";
+                        manzilText.Text = "";
+                        mahallaComboFuqaro.SelectedIndex = -1;
+                        malumotiComboFuqaro.SelectedIndex = -1;
+                        jinsiComboFuqaro.SelectedIndex = -1;
+                        yoshiText.Text = "";
+                        yoshiDateFuqaro.Text = DateTime.Now.ToString();
+                        KeyFuqaro = 0;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Bildirishnoma", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void editButtonFuqaro_Click(object sender, EventArgs e)
+        {
 
         }
+
+        private void deleteButtonFuqaro_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void fuqaroData_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+        //Fuqaro oynasi yakuni
+        //Users oynasi boshlanishi
+
+
     }
 }

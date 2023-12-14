@@ -89,8 +89,6 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.sharifText = new Guna.UI2.WinForms.Guna2TextBox();
             this.familyaText = new Guna.UI2.WinForms.Guna2TextBox();
             this.ismText = new Guna.UI2.WinForms.Guna2TextBox();
-            this.viloyatComboFuqaro = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.tumanComboFuqaro = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2Panel9 = new Guna.UI2.WinForms.Guna2Panel();
             this.addButtonFuqaro = new Guna.UI2.WinForms.Guna2Button();
             this.deleteButtonFuqaro = new Guna.UI2.WinForms.Guna2Button();
@@ -107,6 +105,7 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.deleteButtonUser = new Guna.UI2.WinForms.Guna2Button();
             this.editButtonUser = new Guna.UI2.WinForms.Guna2Button();
             this.fuqaroIdTextUser = new Guna.UI2.WinForms.Guna2TextBox();
+            this.yoshiText = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.guna2TabControl1.SuspendLayout();
@@ -801,10 +800,12 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.fuqaroData.ThemeStyle.RowsStyle.Height = 22;
             this.fuqaroData.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.fuqaroData.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.fuqaroData.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.fuqaroData_CellContentClick);
             // 
             // guna2Panel8
             // 
             this.guna2Panel8.BorderColor = System.Drawing.Color.Black;
+            this.guna2Panel8.Controls.Add(this.yoshiText);
             this.guna2Panel8.Controls.Add(this.epochtaText);
             this.guna2Panel8.Controls.Add(this.malumotiComboFuqaro);
             this.guna2Panel8.Controls.Add(this.jinsiComboFuqaro);
@@ -814,8 +815,6 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.guna2Panel8.Controls.Add(this.sharifText);
             this.guna2Panel8.Controls.Add(this.familyaText);
             this.guna2Panel8.Controls.Add(this.ismText);
-            this.guna2Panel8.Controls.Add(this.viloyatComboFuqaro);
-            this.guna2Panel8.Controls.Add(this.tumanComboFuqaro);
             this.guna2Panel8.Controls.Add(this.guna2Panel9);
             this.guna2Panel8.Dock = System.Windows.Forms.DockStyle.Left;
             this.guna2Panel8.Location = new System.Drawing.Point(0, 0);
@@ -835,10 +834,10 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.epochtaText.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.epochtaText.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.epochtaText.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.epochtaText.Location = new System.Drawing.Point(5, 422);
+            this.epochtaText.Location = new System.Drawing.Point(5, 341);
             this.epochtaText.Name = "epochtaText";
             this.epochtaText.PasswordChar = '\0';
-            this.epochtaText.PlaceholderText = "Manzil";
+            this.epochtaText.PlaceholderText = "Epochta";
             this.epochtaText.SelectedText = "";
             this.epochtaText.Size = new System.Drawing.Size(190, 36);
             this.epochtaText.TabIndex = 13;
@@ -860,7 +859,7 @@ namespace HarbiyRoyxatgaOlish.Forms
             "Orta",
             "Professional",
             "Magistr"});
-            this.malumotiComboFuqaro.Location = new System.Drawing.Point(5, 380);
+            this.malumotiComboFuqaro.Location = new System.Drawing.Point(5, 299);
             this.malumotiComboFuqaro.Name = "malumotiComboFuqaro";
             this.malumotiComboFuqaro.Size = new System.Drawing.Size(190, 36);
             this.malumotiComboFuqaro.StartIndex = 0;
@@ -881,7 +880,7 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.jinsiComboFuqaro.Items.AddRange(new object[] {
             "Erkak",
             "Ayol"});
-            this.jinsiComboFuqaro.Location = new System.Drawing.Point(5, 338);
+            this.jinsiComboFuqaro.Location = new System.Drawing.Point(5, 257);
             this.jinsiComboFuqaro.Name = "jinsiComboFuqaro";
             this.jinsiComboFuqaro.Size = new System.Drawing.Size(190, 36);
             this.jinsiComboFuqaro.StartIndex = 0;
@@ -899,7 +898,7 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.manzilText.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.manzilText.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.manzilText.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.manzilText.Location = new System.Drawing.Point(5, 296);
+            this.manzilText.Location = new System.Drawing.Point(5, 215);
             this.manzilText.Name = "manzilText";
             this.manzilText.PasswordChar = '\0';
             this.manzilText.PlaceholderText = "Manzil";
@@ -909,12 +908,15 @@ namespace HarbiyRoyxatgaOlish.Forms
             // 
             // yoshiDateFuqaro
             // 
-            this.yoshiDateFuqaro.BorderRadius = 10;
+            this.yoshiDateFuqaro.Animated = true;
+            this.yoshiDateFuqaro.AutoRoundedCorners = true;
+            this.yoshiDateFuqaro.BorderRadius = 17;
             this.yoshiDateFuqaro.Checked = true;
-            this.yoshiDateFuqaro.CustomFormat = "";
-            this.yoshiDateFuqaro.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.yoshiDateFuqaro.CustomFormat = "\'yyyy/mm/dd\'";
+            this.yoshiDateFuqaro.Font = new System.Drawing.Font("Segoe UI", 14.25F);
             this.yoshiDateFuqaro.Format = System.Windows.Forms.DateTimePickerFormat.Short;
-            this.yoshiDateFuqaro.Location = new System.Drawing.Point(5, 254);
+            this.yoshiDateFuqaro.IndicateFocus = true;
+            this.yoshiDateFuqaro.Location = new System.Drawing.Point(5, 173);
             this.yoshiDateFuqaro.MaxDate = new System.DateTime(9998, 12, 31, 0, 0, 0, 0);
             this.yoshiDateFuqaro.MinDate = new System.DateTime(1900, 1, 1, 0, 0, 0, 0);
             this.yoshiDateFuqaro.Name = "yoshiDateFuqaro";
@@ -934,7 +936,7 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.mahallaComboFuqaro.Font = new System.Drawing.Font("Segoe UI", 10F);
             this.mahallaComboFuqaro.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
             this.mahallaComboFuqaro.ItemHeight = 30;
-            this.mahallaComboFuqaro.Location = new System.Drawing.Point(5, 85);
+            this.mahallaComboFuqaro.Location = new System.Drawing.Point(5, 4);
             this.mahallaComboFuqaro.Name = "mahallaComboFuqaro";
             this.mahallaComboFuqaro.Size = new System.Drawing.Size(190, 36);
             this.mahallaComboFuqaro.TabIndex = 8;
@@ -951,7 +953,7 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.sharifText.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.sharifText.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.sharifText.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.sharifText.Location = new System.Drawing.Point(5, 211);
+            this.sharifText.Location = new System.Drawing.Point(5, 130);
             this.sharifText.Name = "sharifText";
             this.sharifText.PasswordChar = '\0';
             this.sharifText.PlaceholderText = "Sharifi";
@@ -971,7 +973,7 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.familyaText.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.familyaText.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.familyaText.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.familyaText.Location = new System.Drawing.Point(5, 169);
+            this.familyaText.Location = new System.Drawing.Point(5, 88);
             this.familyaText.Name = "familyaText";
             this.familyaText.PasswordChar = '\0';
             this.familyaText.PlaceholderText = "Familya";
@@ -991,45 +993,13 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.ismText.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.ismText.Font = new System.Drawing.Font("Segoe UI", 9F);
             this.ismText.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.ismText.Location = new System.Drawing.Point(5, 127);
+            this.ismText.Location = new System.Drawing.Point(5, 46);
             this.ismText.Name = "ismText";
             this.ismText.PasswordChar = '\0';
             this.ismText.PlaceholderText = "Ismi";
             this.ismText.SelectedText = "";
             this.ismText.Size = new System.Drawing.Size(190, 36);
             this.ismText.TabIndex = 5;
-            // 
-            // viloyatComboFuqaro
-            // 
-            this.viloyatComboFuqaro.BackColor = System.Drawing.Color.Transparent;
-            this.viloyatComboFuqaro.BorderRadius = 10;
-            this.viloyatComboFuqaro.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.viloyatComboFuqaro.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.viloyatComboFuqaro.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.viloyatComboFuqaro.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.viloyatComboFuqaro.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.viloyatComboFuqaro.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.viloyatComboFuqaro.ItemHeight = 30;
-            this.viloyatComboFuqaro.Location = new System.Drawing.Point(5, 1);
-            this.viloyatComboFuqaro.Name = "viloyatComboFuqaro";
-            this.viloyatComboFuqaro.Size = new System.Drawing.Size(190, 36);
-            this.viloyatComboFuqaro.TabIndex = 7;
-            // 
-            // tumanComboFuqaro
-            // 
-            this.tumanComboFuqaro.BackColor = System.Drawing.Color.Transparent;
-            this.tumanComboFuqaro.BorderRadius = 10;
-            this.tumanComboFuqaro.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.tumanComboFuqaro.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.tumanComboFuqaro.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tumanComboFuqaro.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.tumanComboFuqaro.Font = new System.Drawing.Font("Segoe UI", 10F);
-            this.tumanComboFuqaro.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.tumanComboFuqaro.ItemHeight = 30;
-            this.tumanComboFuqaro.Location = new System.Drawing.Point(5, 43);
-            this.tumanComboFuqaro.Name = "tumanComboFuqaro";
-            this.tumanComboFuqaro.Size = new System.Drawing.Size(190, 36);
-            this.tumanComboFuqaro.TabIndex = 6;
             // 
             // guna2Panel9
             // 
@@ -1073,6 +1043,7 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.deleteButtonFuqaro.Size = new System.Drawing.Size(180, 40);
             this.deleteButtonFuqaro.TabIndex = 2;
             this.deleteButtonFuqaro.Text = "O\'chirish";
+            this.deleteButtonFuqaro.Click += new System.EventHandler(this.deleteButtonFuqaro_Click);
             // 
             // editButtonFuqaro
             // 
@@ -1089,6 +1060,7 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.editButtonFuqaro.Size = new System.Drawing.Size(180, 40);
             this.editButtonFuqaro.TabIndex = 2;
             this.editButtonFuqaro.Text = "Tahrirlash";
+            this.editButtonFuqaro.Click += new System.EventHandler(this.editButtonFuqaro_Click);
             // 
             // userTab
             // 
@@ -1312,6 +1284,26 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.fuqaroIdTextUser.Size = new System.Drawing.Size(190, 36);
             this.fuqaroIdTextUser.TabIndex = 6;
             // 
+            // yoshiText
+            // 
+            this.yoshiText.BorderRadius = 10;
+            this.yoshiText.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.yoshiText.DefaultText = "";
+            this.yoshiText.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.yoshiText.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.yoshiText.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.yoshiText.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.yoshiText.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.yoshiText.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.yoshiText.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.yoshiText.Location = new System.Drawing.Point(5, 383);
+            this.yoshiText.Name = "yoshiText";
+            this.yoshiText.PasswordChar = '\0';
+            this.yoshiText.PlaceholderText = "Yoshi";
+            this.yoshiText.SelectedText = "";
+            this.yoshiText.Size = new System.Drawing.Size(190, 36);
+            this.yoshiText.TabIndex = 14;
+            // 
             // QoshimchaMalumotlar
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1396,8 +1388,6 @@ namespace HarbiyRoyxatgaOlish.Forms
         private Guna.UI2.WinForms.Guna2TextBox sharifText;
         private Guna.UI2.WinForms.Guna2TextBox familyaText;
         private Guna.UI2.WinForms.Guna2TextBox ismText;
-        private Guna.UI2.WinForms.Guna2ComboBox viloyatComboFuqaro;
-        private Guna.UI2.WinForms.Guna2ComboBox tumanComboFuqaro;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel9;
         private Guna.UI2.WinForms.Guna2Button addButtonFuqaro;
         private Guna.UI2.WinForms.Guna2Button deleteButtonFuqaro;
@@ -1418,5 +1408,6 @@ namespace HarbiyRoyxatgaOlish.Forms
         private Guna.UI2.WinForms.Guna2Button editButtonUser;
         private Guna.UI2.WinForms.Guna2TextBox fuqaroIdTextUser;
         private Guna.UI2.WinForms.Guna2TextBox epochtaText;
+        private Guna.UI2.WinForms.Guna2TextBox yoshiText;
     }
 }
