@@ -46,44 +46,44 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.guna2TabControl1 = new Guna.UI2.WinForms.Guna2TabControl();
             this.fuqaroTab = new System.Windows.Forms.TabPage();
             this.guna2Panel7 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2DataGridView2 = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.chaqiriluvchiFuqaroData = new Guna.UI2.WinForms.Guna2DataGridView();
             this.guna2Panel9 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2HtmlLabel16 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel6 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2DataGridView1 = new Guna.UI2.WinForms.Guna2DataGridView();
+            this.voyagaYetganFuqaroData = new Guna.UI2.WinForms.Guna2DataGridView();
             this.guna2Panel8 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2HtmlLabel15 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2TextBox6 = new Guna.UI2.WinForms.Guna2TextBox();
-            this.guna2Button3 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button5 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button2 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button4 = new Guna.UI2.WinForms.Guna2Button();
-            this.guna2Button1 = new Guna.UI2.WinForms.Guna2Button();
+            this.xabarTextFuqaro = new Guna.UI2.WinForms.Guna2TextBox();
+            this.deleteButtonFuqaro = new Guna.UI2.WinForms.Guna2Button();
+            this.sentButtonFuqaro = new Guna.UI2.WinForms.Guna2Button();
+            this.editButtonFuqaro = new Guna.UI2.WinForms.Guna2Button();
+            this.searchButtonFuqaro = new Guna.UI2.WinForms.Guna2Button();
+            this.addButtonFuqaro = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2ComboBox5 = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.xizmatJoyiComboFuqaro = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2HtmlLabel14 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2ComboBox4 = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.kontraktComboFuqaro = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2HtmlLabel13 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2ComboBox3 = new Guna.UI2.WinForms.Guna2ComboBox();
-            this.guna2ComboBox1 = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.xizmatTuriComboFuqaro = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.tashxisComboFuqaro = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2HtmlLabel8 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel10 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2TextBox9 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.vazniTextFuqaro = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel11 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2TextBox10 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.boyiTextFuqaro = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel12 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2TextBox5 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.yoshiTextFuqaro = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel7 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2TextBox4 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.sharifTextFuqaro = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel6 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2TextBox3 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.familyaTextFuqaro = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel5 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2TextBox2 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.ismiTextFuqaro = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel4 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2TextBox1 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.fuqaroIdTextFuqaro = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel3 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.chaqirilganTab = new System.Windows.Forms.TabPage();
             this.guna2DataGridView3 = new Guna.UI2.WinForms.Guna2DataGridView();
@@ -91,31 +91,35 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.guna2HtmlLabel23 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel10 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel13 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2Button6 = new Guna.UI2.WinForms.Guna2Button();
+            this.harbiyXizmatchiQidirish = new Guna.UI2.WinForms.Guna2Button();
+            this.harbiyXzimatchiSaqlash = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel12 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2ComboBox7 = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.harbiyXizmatUtashJoyiCombo = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2HtmlLabel22 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2ComboBox6 = new Guna.UI2.WinForms.Guna2ComboBox();
+            this.harbiyUnvonCombo = new Guna.UI2.WinForms.Guna2ComboBox();
             this.guna2HtmlLabel17 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel11 = new Guna.UI2.WinForms.Guna2Panel();
-            this.guna2TextBox8 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.harbiyXizmatchiSharifText = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel18 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2TextBox11 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.harbiyXizmatchiFamilyaText = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel19 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2TextBox12 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.harbiyXizmatchiIsmiText = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel20 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.guna2TextBox13 = new Guna.UI2.WinForms.Guna2TextBox();
+            this.harbiyXizmatchiIdText = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel21 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.harbiyXizmatchilarTab = new System.Windows.Forms.TabPage();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.guna2TabControl1.SuspendLayout();
             this.fuqaroTab.SuspendLayout();
             this.guna2Panel7.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView2)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chaqiriluvchiFuqaroData)).BeginInit();
             this.guna2Panel9.SuspendLayout();
             this.guna2Panel6.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.voyagaYetganFuqaroData)).BeginInit();
             this.guna2Panel8.SuspendLayout();
             this.guna2Panel2.SuspendLayout();
             this.guna2Panel5.SuspendLayout();
@@ -210,6 +214,7 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.guna2TabControl1.TabIndex = 1;
             this.guna2TabControl1.TabMenuBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(33)))), ((int)(((byte)(42)))), ((int)(((byte)(57)))));
             this.guna2TabControl1.TabMenuOrientation = Guna.UI2.WinForms.TabMenuOrientation.HorizontalBottom;
+            this.guna2TabControl1.SelectedIndexChanged += new System.EventHandler(this.guna2TabControl1_SelectedIndexChanged);
             // 
             // fuqaroTab
             // 
@@ -226,7 +231,7 @@ namespace HarbiyRoyxatgaOlish.Forms
             // 
             // guna2Panel7
             // 
-            this.guna2Panel7.Controls.Add(this.guna2DataGridView2);
+            this.guna2Panel7.Controls.Add(this.chaqiriluvchiFuqaroData);
             this.guna2Panel7.Controls.Add(this.guna2Panel9);
             this.guna2Panel7.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2Panel7.Location = new System.Drawing.Point(255, 260);
@@ -234,10 +239,10 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.guna2Panel7.Size = new System.Drawing.Size(1068, 267);
             this.guna2Panel7.TabIndex = 2;
             // 
-            // guna2DataGridView2
+            // chaqiriluvchiFuqaroData
             // 
             dataGridViewCellStyle1.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView2.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
+            this.chaqiriluvchiFuqaroData.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle1;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -245,9 +250,11 @@ namespace HarbiyRoyxatgaOlish.Forms
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.guna2DataGridView2.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.guna2DataGridView2.ColumnHeadersHeight = 4;
-            this.guna2DataGridView2.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.chaqiriluvchiFuqaroData.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
+            this.chaqiriluvchiFuqaroData.ColumnHeadersHeight = 20;
+            this.chaqiriluvchiFuqaroData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.chaqiriluvchiFuqaroData.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column3});
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -255,35 +262,36 @@ namespace HarbiyRoyxatgaOlish.Forms
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.guna2DataGridView2.DefaultCellStyle = dataGridViewCellStyle3;
-            this.guna2DataGridView2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2DataGridView2.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView2.Location = new System.Drawing.Point(0, 24);
-            this.guna2DataGridView2.Name = "guna2DataGridView2";
-            this.guna2DataGridView2.RowHeadersVisible = false;
-            this.guna2DataGridView2.Size = new System.Drawing.Size(1068, 243);
-            this.guna2DataGridView2.TabIndex = 18;
-            this.guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.Font = null;
-            this.guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView2.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView2.ThemeStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView2.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView2.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView2.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.guna2DataGridView2.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.guna2DataGridView2.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.guna2DataGridView2.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.guna2DataGridView2.ThemeStyle.HeaderStyle.Height = 4;
-            this.guna2DataGridView2.ThemeStyle.ReadOnly = false;
-            this.guna2DataGridView2.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView2.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.guna2DataGridView2.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.guna2DataGridView2.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            this.guna2DataGridView2.ThemeStyle.RowsStyle.Height = 22;
-            this.guna2DataGridView2.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView2.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.chaqiriluvchiFuqaroData.DefaultCellStyle = dataGridViewCellStyle3;
+            this.chaqiriluvchiFuqaroData.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.chaqiriluvchiFuqaroData.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.chaqiriluvchiFuqaroData.Location = new System.Drawing.Point(0, 24);
+            this.chaqiriluvchiFuqaroData.Name = "chaqiriluvchiFuqaroData";
+            this.chaqiriluvchiFuqaroData.RowHeadersVisible = false;
+            this.chaqiriluvchiFuqaroData.Size = new System.Drawing.Size(1068, 243);
+            this.chaqiriluvchiFuqaroData.TabIndex = 18;
+            this.chaqiriluvchiFuqaroData.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
+            this.chaqiriluvchiFuqaroData.ThemeStyle.AlternatingRowsStyle.Font = null;
+            this.chaqiriluvchiFuqaroData.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
+            this.chaqiriluvchiFuqaroData.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
+            this.chaqiriluvchiFuqaroData.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
+            this.chaqiriluvchiFuqaroData.ThemeStyle.BackColor = System.Drawing.Color.White;
+            this.chaqiriluvchiFuqaroData.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.chaqiriluvchiFuqaroData.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.chaqiriluvchiFuqaroData.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.chaqiriluvchiFuqaroData.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.chaqiriluvchiFuqaroData.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.chaqiriluvchiFuqaroData.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.chaqiriluvchiFuqaroData.ThemeStyle.HeaderStyle.Height = 20;
+            this.chaqiriluvchiFuqaroData.ThemeStyle.ReadOnly = false;
+            this.chaqiriluvchiFuqaroData.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
+            this.chaqiriluvchiFuqaroData.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.chaqiriluvchiFuqaroData.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.chaqiriluvchiFuqaroData.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.chaqiriluvchiFuqaroData.ThemeStyle.RowsStyle.Height = 22;
+            this.chaqiriluvchiFuqaroData.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.chaqiriluvchiFuqaroData.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.chaqiriluvchiFuqaroData.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.chaqiriluvchiFuqaroData_CellContentClick);
             // 
             // guna2Panel9
             // 
@@ -308,7 +316,7 @@ namespace HarbiyRoyxatgaOlish.Forms
             // 
             // guna2Panel6
             // 
-            this.guna2Panel6.Controls.Add(this.guna2DataGridView1);
+            this.guna2Panel6.Controls.Add(this.voyagaYetganFuqaroData);
             this.guna2Panel6.Controls.Add(this.guna2Panel8);
             this.guna2Panel6.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2Panel6.Location = new System.Drawing.Point(255, 3);
@@ -316,10 +324,10 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.guna2Panel6.Size = new System.Drawing.Size(1068, 257);
             this.guna2Panel6.TabIndex = 1;
             // 
-            // guna2DataGridView1
+            // voyagaYetganFuqaroData
             // 
             dataGridViewCellStyle4.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
+            this.voyagaYetganFuqaroData.AlternatingRowsDefaultCellStyle = dataGridViewCellStyle4;
             dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -327,9 +335,12 @@ namespace HarbiyRoyxatgaOlish.Forms
             dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.guna2DataGridView1.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
-            this.guna2DataGridView1.ColumnHeadersHeight = 4;
-            this.guna2DataGridView1.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.voyagaYetganFuqaroData.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
+            this.voyagaYetganFuqaroData.ColumnHeadersHeight = 20;
+            this.voyagaYetganFuqaroData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.voyagaYetganFuqaroData.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column1,
+            this.Column2});
             dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -337,35 +348,36 @@ namespace HarbiyRoyxatgaOlish.Forms
             dataGridViewCellStyle6.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             dataGridViewCellStyle6.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
             dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.guna2DataGridView1.DefaultCellStyle = dataGridViewCellStyle6;
-            this.guna2DataGridView1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.guna2DataGridView1.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.Location = new System.Drawing.Point(0, 22);
-            this.guna2DataGridView1.Name = "guna2DataGridView1";
-            this.guna2DataGridView1.RowHeadersVisible = false;
-            this.guna2DataGridView1.Size = new System.Drawing.Size(1068, 235);
-            this.guna2DataGridView1.TabIndex = 18;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.Font = null;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
-            this.guna2DataGridView1.ThemeStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.guna2DataGridView1.ThemeStyle.HeaderStyle.Height = 4;
-            this.guna2DataGridView1.ThemeStyle.ReadOnly = false;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.Height = 22;
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
-            this.guna2DataGridView1.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.voyagaYetganFuqaroData.DefaultCellStyle = dataGridViewCellStyle6;
+            this.voyagaYetganFuqaroData.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.voyagaYetganFuqaroData.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.voyagaYetganFuqaroData.Location = new System.Drawing.Point(0, 22);
+            this.voyagaYetganFuqaroData.Name = "voyagaYetganFuqaroData";
+            this.voyagaYetganFuqaroData.RowHeadersVisible = false;
+            this.voyagaYetganFuqaroData.Size = new System.Drawing.Size(1068, 235);
+            this.voyagaYetganFuqaroData.TabIndex = 18;
+            this.voyagaYetganFuqaroData.ThemeStyle.AlternatingRowsStyle.BackColor = System.Drawing.Color.White;
+            this.voyagaYetganFuqaroData.ThemeStyle.AlternatingRowsStyle.Font = null;
+            this.voyagaYetganFuqaroData.ThemeStyle.AlternatingRowsStyle.ForeColor = System.Drawing.Color.Empty;
+            this.voyagaYetganFuqaroData.ThemeStyle.AlternatingRowsStyle.SelectionBackColor = System.Drawing.Color.Empty;
+            this.voyagaYetganFuqaroData.ThemeStyle.AlternatingRowsStyle.SelectionForeColor = System.Drawing.Color.Empty;
+            this.voyagaYetganFuqaroData.ThemeStyle.BackColor = System.Drawing.Color.White;
+            this.voyagaYetganFuqaroData.ThemeStyle.GridColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.voyagaYetganFuqaroData.ThemeStyle.HeaderStyle.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(100)))), ((int)(((byte)(88)))), ((int)(((byte)(255)))));
+            this.voyagaYetganFuqaroData.ThemeStyle.HeaderStyle.BorderStyle = System.Windows.Forms.DataGridViewHeaderBorderStyle.None;
+            this.voyagaYetganFuqaroData.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.voyagaYetganFuqaroData.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
+            this.voyagaYetganFuqaroData.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.voyagaYetganFuqaroData.ThemeStyle.HeaderStyle.Height = 20;
+            this.voyagaYetganFuqaroData.ThemeStyle.ReadOnly = false;
+            this.voyagaYetganFuqaroData.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
+            this.voyagaYetganFuqaroData.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
+            this.voyagaYetganFuqaroData.ThemeStyle.RowsStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.voyagaYetganFuqaroData.ThemeStyle.RowsStyle.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.voyagaYetganFuqaroData.ThemeStyle.RowsStyle.Height = 22;
+            this.voyagaYetganFuqaroData.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
+            this.voyagaYetganFuqaroData.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.voyagaYetganFuqaroData.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.voyagaYetganFuqaroData_CellContentClick);
             // 
             // guna2Panel8
             // 
@@ -403,153 +415,155 @@ namespace HarbiyRoyxatgaOlish.Forms
             // 
             // guna2Panel5
             // 
-            this.guna2Panel5.Controls.Add(this.guna2TextBox6);
-            this.guna2Panel5.Controls.Add(this.guna2Button3);
-            this.guna2Panel5.Controls.Add(this.guna2Button5);
-            this.guna2Panel5.Controls.Add(this.guna2Button2);
-            this.guna2Panel5.Controls.Add(this.guna2Button4);
-            this.guna2Panel5.Controls.Add(this.guna2Button1);
+            this.guna2Panel5.Controls.Add(this.xabarTextFuqaro);
+            this.guna2Panel5.Controls.Add(this.deleteButtonFuqaro);
+            this.guna2Panel5.Controls.Add(this.sentButtonFuqaro);
+            this.guna2Panel5.Controls.Add(this.editButtonFuqaro);
+            this.guna2Panel5.Controls.Add(this.searchButtonFuqaro);
+            this.guna2Panel5.Controls.Add(this.addButtonFuqaro);
             this.guna2Panel5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2Panel5.Location = new System.Drawing.Point(0, 333);
             this.guna2Panel5.Name = "guna2Panel5";
             this.guna2Panel5.Size = new System.Drawing.Size(252, 191);
             this.guna2Panel5.TabIndex = 2;
             // 
-            // guna2TextBox6
+            // xabarTextFuqaro
             // 
-            this.guna2TextBox6.Animated = true;
-            this.guna2TextBox6.BorderRadius = 12;
-            this.guna2TextBox6.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox6.DefaultText = "";
-            this.guna2TextBox6.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox6.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox6.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox6.Font = new System.Drawing.Font("Century Gothic", 8.25F);
-            this.guna2TextBox6.ForeColor = System.Drawing.Color.Black;
-            this.guna2TextBox6.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox6.Location = new System.Drawing.Point(6, 2);
-            this.guna2TextBox6.Multiline = true;
-            this.guna2TextBox6.Name = "guna2TextBox6";
-            this.guna2TextBox6.PasswordChar = '\0';
-            this.guna2TextBox6.PlaceholderText = "Xabar yuborish uchun ...";
-            this.guna2TextBox6.SelectedText = "";
-            this.guna2TextBox6.Size = new System.Drawing.Size(243, 70);
-            this.guna2TextBox6.TabIndex = 4;
+            this.xabarTextFuqaro.Animated = true;
+            this.xabarTextFuqaro.BorderRadius = 12;
+            this.xabarTextFuqaro.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.xabarTextFuqaro.DefaultText = "";
+            this.xabarTextFuqaro.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.xabarTextFuqaro.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.xabarTextFuqaro.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.xabarTextFuqaro.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.xabarTextFuqaro.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.xabarTextFuqaro.Font = new System.Drawing.Font("Century Gothic", 8.25F);
+            this.xabarTextFuqaro.ForeColor = System.Drawing.Color.Black;
+            this.xabarTextFuqaro.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.xabarTextFuqaro.Location = new System.Drawing.Point(6, 2);
+            this.xabarTextFuqaro.Multiline = true;
+            this.xabarTextFuqaro.Name = "xabarTextFuqaro";
+            this.xabarTextFuqaro.PasswordChar = '\0';
+            this.xabarTextFuqaro.PlaceholderText = "Xabar yuborish uchun ...";
+            this.xabarTextFuqaro.SelectedText = "";
+            this.xabarTextFuqaro.Size = new System.Drawing.Size(243, 70);
+            this.xabarTextFuqaro.TabIndex = 4;
             // 
-            // guna2Button3
+            // deleteButtonFuqaro
             // 
-            this.guna2Button3.Animated = true;
-            this.guna2Button3.AutoRoundedCorners = true;
-            this.guna2Button3.BorderRadius = 14;
-            this.guna2Button3.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button3.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button3.FillColor = System.Drawing.Color.Crimson;
-            this.guna2Button3.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold);
-            this.guna2Button3.ForeColor = System.Drawing.Color.White;
-            this.guna2Button3.IndicateFocus = true;
-            this.guna2Button3.Location = new System.Drawing.Point(3, 156);
-            this.guna2Button3.Name = "guna2Button3";
-            this.guna2Button3.Size = new System.Drawing.Size(120, 30);
-            this.guna2Button3.TabIndex = 0;
-            this.guna2Button3.Text = "O\'chirish";
-            this.guna2Button3.UseTransparentBackground = true;
+            this.deleteButtonFuqaro.Animated = true;
+            this.deleteButtonFuqaro.AutoRoundedCorners = true;
+            this.deleteButtonFuqaro.BorderRadius = 14;
+            this.deleteButtonFuqaro.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.deleteButtonFuqaro.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.deleteButtonFuqaro.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.deleteButtonFuqaro.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.deleteButtonFuqaro.FillColor = System.Drawing.Color.Crimson;
+            this.deleteButtonFuqaro.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold);
+            this.deleteButtonFuqaro.ForeColor = System.Drawing.Color.White;
+            this.deleteButtonFuqaro.IndicateFocus = true;
+            this.deleteButtonFuqaro.Location = new System.Drawing.Point(3, 156);
+            this.deleteButtonFuqaro.Name = "deleteButtonFuqaro";
+            this.deleteButtonFuqaro.Size = new System.Drawing.Size(120, 30);
+            this.deleteButtonFuqaro.TabIndex = 0;
+            this.deleteButtonFuqaro.Text = "O\'chirish";
+            this.deleteButtonFuqaro.UseTransparentBackground = true;
             // 
-            // guna2Button5
+            // sentButtonFuqaro
             // 
-            this.guna2Button5.Animated = true;
-            this.guna2Button5.AutoRoundedCorners = true;
-            this.guna2Button5.BorderRadius = 14;
-            this.guna2Button5.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button5.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button5.FillColor = System.Drawing.Color.YellowGreen;
-            this.guna2Button5.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold);
-            this.guna2Button5.ForeColor = System.Drawing.Color.White;
-            this.guna2Button5.IndicateFocus = true;
-            this.guna2Button5.Location = new System.Drawing.Point(129, 120);
-            this.guna2Button5.Name = "guna2Button5";
-            this.guna2Button5.Size = new System.Drawing.Size(120, 30);
-            this.guna2Button5.TabIndex = 0;
-            this.guna2Button5.Text = "Yuborish";
-            this.guna2Button5.UseTransparentBackground = true;
+            this.sentButtonFuqaro.Animated = true;
+            this.sentButtonFuqaro.AutoRoundedCorners = true;
+            this.sentButtonFuqaro.BorderRadius = 14;
+            this.sentButtonFuqaro.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.sentButtonFuqaro.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.sentButtonFuqaro.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.sentButtonFuqaro.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.sentButtonFuqaro.FillColor = System.Drawing.Color.YellowGreen;
+            this.sentButtonFuqaro.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold);
+            this.sentButtonFuqaro.ForeColor = System.Drawing.Color.White;
+            this.sentButtonFuqaro.IndicateFocus = true;
+            this.sentButtonFuqaro.Location = new System.Drawing.Point(129, 120);
+            this.sentButtonFuqaro.Name = "sentButtonFuqaro";
+            this.sentButtonFuqaro.Size = new System.Drawing.Size(120, 30);
+            this.sentButtonFuqaro.TabIndex = 0;
+            this.sentButtonFuqaro.Text = "Yuborish";
+            this.sentButtonFuqaro.UseTransparentBackground = true;
             // 
-            // guna2Button2
+            // editButtonFuqaro
             // 
-            this.guna2Button2.Animated = true;
-            this.guna2Button2.AutoRoundedCorners = true;
-            this.guna2Button2.BorderRadius = 14;
-            this.guna2Button2.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button2.FillColor = System.Drawing.Color.Teal;
-            this.guna2Button2.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold);
-            this.guna2Button2.ForeColor = System.Drawing.Color.White;
-            this.guna2Button2.IndicateFocus = true;
-            this.guna2Button2.Location = new System.Drawing.Point(2, 120);
-            this.guna2Button2.Name = "guna2Button2";
-            this.guna2Button2.Size = new System.Drawing.Size(120, 30);
-            this.guna2Button2.TabIndex = 0;
-            this.guna2Button2.Text = "Tahrirlash";
-            this.guna2Button2.UseTransparentBackground = true;
+            this.editButtonFuqaro.Animated = true;
+            this.editButtonFuqaro.AutoRoundedCorners = true;
+            this.editButtonFuqaro.BorderRadius = 14;
+            this.editButtonFuqaro.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.editButtonFuqaro.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.editButtonFuqaro.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.editButtonFuqaro.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.editButtonFuqaro.FillColor = System.Drawing.Color.Teal;
+            this.editButtonFuqaro.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold);
+            this.editButtonFuqaro.ForeColor = System.Drawing.Color.White;
+            this.editButtonFuqaro.IndicateFocus = true;
+            this.editButtonFuqaro.Location = new System.Drawing.Point(2, 120);
+            this.editButtonFuqaro.Name = "editButtonFuqaro";
+            this.editButtonFuqaro.Size = new System.Drawing.Size(120, 30);
+            this.editButtonFuqaro.TabIndex = 0;
+            this.editButtonFuqaro.Text = "Tahrirlash";
+            this.editButtonFuqaro.UseTransparentBackground = true;
+            this.editButtonFuqaro.Click += new System.EventHandler(this.editButtonFuqaro_Click);
             // 
-            // guna2Button4
+            // searchButtonFuqaro
             // 
-            this.guna2Button4.Animated = true;
-            this.guna2Button4.AutoRoundedCorners = true;
-            this.guna2Button4.BorderRadius = 14;
-            this.guna2Button4.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button4.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button4.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
-            this.guna2Button4.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold);
-            this.guna2Button4.ForeColor = System.Drawing.Color.White;
-            this.guna2Button4.IndicateFocus = true;
-            this.guna2Button4.Location = new System.Drawing.Point(129, 156);
-            this.guna2Button4.Name = "guna2Button4";
-            this.guna2Button4.Size = new System.Drawing.Size(120, 30);
-            this.guna2Button4.TabIndex = 0;
-            this.guna2Button4.Text = "Qidirish";
-            this.guna2Button4.UseTransparentBackground = true;
+            this.searchButtonFuqaro.Animated = true;
+            this.searchButtonFuqaro.AutoRoundedCorners = true;
+            this.searchButtonFuqaro.BorderRadius = 14;
+            this.searchButtonFuqaro.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.searchButtonFuqaro.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.searchButtonFuqaro.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.searchButtonFuqaro.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.searchButtonFuqaro.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.searchButtonFuqaro.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold);
+            this.searchButtonFuqaro.ForeColor = System.Drawing.Color.White;
+            this.searchButtonFuqaro.IndicateFocus = true;
+            this.searchButtonFuqaro.Location = new System.Drawing.Point(129, 156);
+            this.searchButtonFuqaro.Name = "searchButtonFuqaro";
+            this.searchButtonFuqaro.Size = new System.Drawing.Size(120, 30);
+            this.searchButtonFuqaro.TabIndex = 0;
+            this.searchButtonFuqaro.Text = "Qidirish";
+            this.searchButtonFuqaro.UseTransparentBackground = true;
             // 
-            // guna2Button1
+            // addButtonFuqaro
             // 
-            this.guna2Button1.Animated = true;
-            this.guna2Button1.AutoRoundedCorners = true;
-            this.guna2Button1.BorderRadius = 14;
-            this.guna2Button1.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button1.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold);
-            this.guna2Button1.ForeColor = System.Drawing.Color.White;
-            this.guna2Button1.IndicateFocus = true;
-            this.guna2Button1.Location = new System.Drawing.Point(3, 82);
-            this.guna2Button1.Name = "guna2Button1";
-            this.guna2Button1.Size = new System.Drawing.Size(120, 30);
-            this.guna2Button1.TabIndex = 0;
-            this.guna2Button1.Text = "Qo\'shish";
-            this.guna2Button1.UseTransparentBackground = true;
+            this.addButtonFuqaro.Animated = true;
+            this.addButtonFuqaro.AutoRoundedCorners = true;
+            this.addButtonFuqaro.BorderRadius = 14;
+            this.addButtonFuqaro.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.addButtonFuqaro.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.addButtonFuqaro.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.addButtonFuqaro.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.addButtonFuqaro.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold);
+            this.addButtonFuqaro.ForeColor = System.Drawing.Color.White;
+            this.addButtonFuqaro.IndicateFocus = true;
+            this.addButtonFuqaro.Location = new System.Drawing.Point(3, 82);
+            this.addButtonFuqaro.Name = "addButtonFuqaro";
+            this.addButtonFuqaro.Size = new System.Drawing.Size(120, 30);
+            this.addButtonFuqaro.TabIndex = 0;
+            this.addButtonFuqaro.Text = "Qo\'shish";
+            this.addButtonFuqaro.UseTransparentBackground = true;
+            this.addButtonFuqaro.Click += new System.EventHandler(this.addButtonFuqaro_Click);
             // 
             // guna2Panel4
             // 
-            this.guna2Panel4.Controls.Add(this.guna2ComboBox5);
+            this.guna2Panel4.Controls.Add(this.xizmatJoyiComboFuqaro);
             this.guna2Panel4.Controls.Add(this.guna2HtmlLabel14);
-            this.guna2Panel4.Controls.Add(this.guna2ComboBox4);
+            this.guna2Panel4.Controls.Add(this.kontraktComboFuqaro);
             this.guna2Panel4.Controls.Add(this.guna2HtmlLabel13);
-            this.guna2Panel4.Controls.Add(this.guna2ComboBox3);
-            this.guna2Panel4.Controls.Add(this.guna2ComboBox1);
+            this.guna2Panel4.Controls.Add(this.xizmatTuriComboFuqaro);
+            this.guna2Panel4.Controls.Add(this.tashxisComboFuqaro);
             this.guna2Panel4.Controls.Add(this.guna2HtmlLabel8);
             this.guna2Panel4.Controls.Add(this.guna2HtmlLabel10);
-            this.guna2Panel4.Controls.Add(this.guna2TextBox9);
+            this.guna2Panel4.Controls.Add(this.vazniTextFuqaro);
             this.guna2Panel4.Controls.Add(this.guna2HtmlLabel11);
-            this.guna2Panel4.Controls.Add(this.guna2TextBox10);
+            this.guna2Panel4.Controls.Add(this.boyiTextFuqaro);
             this.guna2Panel4.Controls.Add(this.guna2HtmlLabel12);
             this.guna2Panel4.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2Panel4.Location = new System.Drawing.Point(0, 153);
@@ -557,22 +571,23 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.guna2Panel4.Size = new System.Drawing.Size(252, 180);
             this.guna2Panel4.TabIndex = 1;
             // 
-            // guna2ComboBox5
+            // xizmatJoyiComboFuqaro
             // 
-            this.guna2ComboBox5.AutoRoundedCorners = true;
-            this.guna2ComboBox5.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ComboBox5.BorderRadius = 10;
-            this.guna2ComboBox5.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.guna2ComboBox5.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.guna2ComboBox5.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox5.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox5.Font = new System.Drawing.Font("Segoe UI Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.guna2ComboBox5.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.guna2ComboBox5.ItemHeight = 16;
-            this.guna2ComboBox5.Location = new System.Drawing.Point(85, 150);
-            this.guna2ComboBox5.Name = "guna2ComboBox5";
-            this.guna2ComboBox5.Size = new System.Drawing.Size(150, 22);
-            this.guna2ComboBox5.TabIndex = 16;
+            this.xizmatJoyiComboFuqaro.AutoRoundedCorners = true;
+            this.xizmatJoyiComboFuqaro.BackColor = System.Drawing.Color.Transparent;
+            this.xizmatJoyiComboFuqaro.BorderRadius = 10;
+            this.xizmatJoyiComboFuqaro.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.xizmatJoyiComboFuqaro.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.xizmatJoyiComboFuqaro.Enabled = false;
+            this.xizmatJoyiComboFuqaro.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.xizmatJoyiComboFuqaro.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.xizmatJoyiComboFuqaro.Font = new System.Drawing.Font("Segoe UI Light", 8.25F);
+            this.xizmatJoyiComboFuqaro.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.xizmatJoyiComboFuqaro.ItemHeight = 16;
+            this.xizmatJoyiComboFuqaro.Location = new System.Drawing.Point(85, 150);
+            this.xizmatJoyiComboFuqaro.Name = "xizmatJoyiComboFuqaro";
+            this.xizmatJoyiComboFuqaro.Size = new System.Drawing.Size(150, 22);
+            this.xizmatJoyiComboFuqaro.TabIndex = 16;
             // 
             // guna2HtmlLabel14
             // 
@@ -585,22 +600,26 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.guna2HtmlLabel14.TabIndex = 15;
             this.guna2HtmlLabel14.Text = "Xizmat joyi";
             // 
-            // guna2ComboBox4
+            // kontraktComboFuqaro
             // 
-            this.guna2ComboBox4.AutoRoundedCorners = true;
-            this.guna2ComboBox4.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ComboBox4.BorderRadius = 10;
-            this.guna2ComboBox4.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.guna2ComboBox4.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.guna2ComboBox4.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox4.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox4.Font = new System.Drawing.Font("Segoe UI Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.guna2ComboBox4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.guna2ComboBox4.ItemHeight = 16;
-            this.guna2ComboBox4.Location = new System.Drawing.Point(85, 120);
-            this.guna2ComboBox4.Name = "guna2ComboBox4";
-            this.guna2ComboBox4.Size = new System.Drawing.Size(150, 22);
-            this.guna2ComboBox4.TabIndex = 14;
+            this.kontraktComboFuqaro.AutoRoundedCorners = true;
+            this.kontraktComboFuqaro.BackColor = System.Drawing.Color.Transparent;
+            this.kontraktComboFuqaro.BorderRadius = 10;
+            this.kontraktComboFuqaro.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.kontraktComboFuqaro.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.kontraktComboFuqaro.Enabled = false;
+            this.kontraktComboFuqaro.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.kontraktComboFuqaro.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.kontraktComboFuqaro.Font = new System.Drawing.Font("Segoe UI Light", 8.25F);
+            this.kontraktComboFuqaro.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.kontraktComboFuqaro.ItemHeight = 16;
+            this.kontraktComboFuqaro.Items.AddRange(new object[] {
+            "Tolandi",
+            "Tolanmadi"});
+            this.kontraktComboFuqaro.Location = new System.Drawing.Point(85, 120);
+            this.kontraktComboFuqaro.Name = "kontraktComboFuqaro";
+            this.kontraktComboFuqaro.Size = new System.Drawing.Size(150, 22);
+            this.kontraktComboFuqaro.TabIndex = 14;
             // 
             // guna2HtmlLabel13
             // 
@@ -609,46 +628,52 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.guna2HtmlLabel13.ForeColor = System.Drawing.Color.White;
             this.guna2HtmlLabel13.Location = new System.Drawing.Point(4, 121);
             this.guna2HtmlLabel13.Name = "guna2HtmlLabel13";
-            this.guna2HtmlLabel13.Size = new System.Drawing.Size(54, 18);
+            this.guna2HtmlLabel13.Size = new System.Drawing.Size(57, 18);
             this.guna2HtmlLabel13.TabIndex = 13;
-            this.guna2HtmlLabel13.Text = "Kvadrat";
+            this.guna2HtmlLabel13.Text = "Kontrakt";
             // 
-            // guna2ComboBox3
+            // xizmatTuriComboFuqaro
             // 
-            this.guna2ComboBox3.AutoRoundedCorners = true;
-            this.guna2ComboBox3.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ComboBox3.BorderRadius = 10;
-            this.guna2ComboBox3.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.guna2ComboBox3.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.guna2ComboBox3.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox3.Font = new System.Drawing.Font("Segoe UI Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.guna2ComboBox3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.guna2ComboBox3.ItemHeight = 16;
-            this.guna2ComboBox3.Location = new System.Drawing.Point(85, 90);
-            this.guna2ComboBox3.Name = "guna2ComboBox3";
-            this.guna2ComboBox3.Size = new System.Drawing.Size(150, 22);
-            this.guna2ComboBox3.TabIndex = 12;
+            this.xizmatTuriComboFuqaro.AutoRoundedCorners = true;
+            this.xizmatTuriComboFuqaro.BackColor = System.Drawing.Color.Transparent;
+            this.xizmatTuriComboFuqaro.BorderRadius = 10;
+            this.xizmatTuriComboFuqaro.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.xizmatTuriComboFuqaro.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.xizmatTuriComboFuqaro.Enabled = false;
+            this.xizmatTuriComboFuqaro.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.xizmatTuriComboFuqaro.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.xizmatTuriComboFuqaro.Font = new System.Drawing.Font("Segoe UI Light", 8.25F);
+            this.xizmatTuriComboFuqaro.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.xizmatTuriComboFuqaro.ItemHeight = 16;
+            this.xizmatTuriComboFuqaro.Items.AddRange(new object[] {
+            "Bir yillik",
+            "Bir oylik"});
+            this.xizmatTuriComboFuqaro.Location = new System.Drawing.Point(85, 90);
+            this.xizmatTuriComboFuqaro.Name = "xizmatTuriComboFuqaro";
+            this.xizmatTuriComboFuqaro.Size = new System.Drawing.Size(150, 22);
+            this.xizmatTuriComboFuqaro.TabIndex = 12;
+            this.xizmatTuriComboFuqaro.SelectedIndexChanged += new System.EventHandler(this.xizmatTuriComboFuqaro_SelectedIndexChanged);
             // 
-            // guna2ComboBox1
+            // tashxisComboFuqaro
             // 
-            this.guna2ComboBox1.AutoRoundedCorners = true;
-            this.guna2ComboBox1.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ComboBox1.BorderRadius = 10;
-            this.guna2ComboBox1.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.guna2ComboBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.guna2ComboBox1.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox1.Font = new System.Drawing.Font("Segoe UI Light", 8.25F);
-            this.guna2ComboBox1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.guna2ComboBox1.ItemHeight = 16;
-            this.guna2ComboBox1.Items.AddRange(new object[] {
-            "Sog`lom",
-            "Nosog`lom"});
-            this.guna2ComboBox1.Location = new System.Drawing.Point(85, 60);
-            this.guna2ComboBox1.Name = "guna2ComboBox1";
-            this.guna2ComboBox1.Size = new System.Drawing.Size(150, 22);
-            this.guna2ComboBox1.TabIndex = 10;
+            this.tashxisComboFuqaro.AutoRoundedCorners = true;
+            this.tashxisComboFuqaro.BackColor = System.Drawing.Color.Transparent;
+            this.tashxisComboFuqaro.BorderRadius = 10;
+            this.tashxisComboFuqaro.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.tashxisComboFuqaro.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.tashxisComboFuqaro.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tashxisComboFuqaro.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.tashxisComboFuqaro.Font = new System.Drawing.Font("Segoe UI Light", 8.25F);
+            this.tashxisComboFuqaro.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.tashxisComboFuqaro.ItemHeight = 16;
+            this.tashxisComboFuqaro.Items.AddRange(new object[] {
+            "Soglom",
+            "Nosoglom"});
+            this.tashxisComboFuqaro.Location = new System.Drawing.Point(85, 60);
+            this.tashxisComboFuqaro.Name = "tashxisComboFuqaro";
+            this.tashxisComboFuqaro.Size = new System.Drawing.Size(150, 22);
+            this.tashxisComboFuqaro.TabIndex = 10;
+            this.tashxisComboFuqaro.SelectedIndexChanged += new System.EventHandler(this.tashxisComboFuqaro_SelectedIndexChanged);
             // 
             // guna2HtmlLabel8
             // 
@@ -672,27 +697,27 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.guna2HtmlLabel10.TabIndex = 4;
             this.guna2HtmlLabel10.Text = "Tashxis";
             // 
-            // guna2TextBox9
+            // vazniTextFuqaro
             // 
-            this.guna2TextBox9.Animated = true;
-            this.guna2TextBox9.AutoRoundedCorners = true;
-            this.guna2TextBox9.BorderRadius = 9;
-            this.guna2TextBox9.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox9.DefaultText = "";
-            this.guna2TextBox9.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox9.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox9.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox9.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox9.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox9.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.guna2TextBox9.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox9.Location = new System.Drawing.Point(85, 32);
-            this.guna2TextBox9.Name = "guna2TextBox9";
-            this.guna2TextBox9.PasswordChar = '\0';
-            this.guna2TextBox9.PlaceholderText = "";
-            this.guna2TextBox9.SelectedText = "";
-            this.guna2TextBox9.Size = new System.Drawing.Size(150, 20);
-            this.guna2TextBox9.TabIndex = 3;
+            this.vazniTextFuqaro.Animated = true;
+            this.vazniTextFuqaro.AutoRoundedCorners = true;
+            this.vazniTextFuqaro.BorderRadius = 9;
+            this.vazniTextFuqaro.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.vazniTextFuqaro.DefaultText = "";
+            this.vazniTextFuqaro.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.vazniTextFuqaro.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.vazniTextFuqaro.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.vazniTextFuqaro.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.vazniTextFuqaro.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.vazniTextFuqaro.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.vazniTextFuqaro.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.vazniTextFuqaro.Location = new System.Drawing.Point(85, 32);
+            this.vazniTextFuqaro.Name = "vazniTextFuqaro";
+            this.vazniTextFuqaro.PasswordChar = '\0';
+            this.vazniTextFuqaro.PlaceholderText = "";
+            this.vazniTextFuqaro.SelectedText = "";
+            this.vazniTextFuqaro.Size = new System.Drawing.Size(150, 20);
+            this.vazniTextFuqaro.TabIndex = 3;
             // 
             // guna2HtmlLabel11
             // 
@@ -705,27 +730,27 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.guna2HtmlLabel11.TabIndex = 2;
             this.guna2HtmlLabel11.Text = "Vazni";
             // 
-            // guna2TextBox10
+            // boyiTextFuqaro
             // 
-            this.guna2TextBox10.Animated = true;
-            this.guna2TextBox10.AutoRoundedCorners = true;
-            this.guna2TextBox10.BorderRadius = 9;
-            this.guna2TextBox10.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox10.DefaultText = "";
-            this.guna2TextBox10.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox10.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox10.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox10.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox10.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox10.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.guna2TextBox10.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox10.Location = new System.Drawing.Point(85, 3);
-            this.guna2TextBox10.Name = "guna2TextBox10";
-            this.guna2TextBox10.PasswordChar = '\0';
-            this.guna2TextBox10.PlaceholderText = "";
-            this.guna2TextBox10.SelectedText = "";
-            this.guna2TextBox10.Size = new System.Drawing.Size(150, 20);
-            this.guna2TextBox10.TabIndex = 1;
+            this.boyiTextFuqaro.Animated = true;
+            this.boyiTextFuqaro.AutoRoundedCorners = true;
+            this.boyiTextFuqaro.BorderRadius = 9;
+            this.boyiTextFuqaro.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.boyiTextFuqaro.DefaultText = "";
+            this.boyiTextFuqaro.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.boyiTextFuqaro.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.boyiTextFuqaro.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.boyiTextFuqaro.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.boyiTextFuqaro.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.boyiTextFuqaro.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.boyiTextFuqaro.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.boyiTextFuqaro.Location = new System.Drawing.Point(85, 3);
+            this.boyiTextFuqaro.Name = "boyiTextFuqaro";
+            this.boyiTextFuqaro.PasswordChar = '\0';
+            this.boyiTextFuqaro.PlaceholderText = "";
+            this.boyiTextFuqaro.SelectedText = "";
+            this.boyiTextFuqaro.Size = new System.Drawing.Size(150, 20);
+            this.boyiTextFuqaro.TabIndex = 1;
             // 
             // guna2HtmlLabel12
             // 
@@ -740,15 +765,15 @@ namespace HarbiyRoyxatgaOlish.Forms
             // 
             // guna2Panel3
             // 
-            this.guna2Panel3.Controls.Add(this.guna2TextBox5);
+            this.guna2Panel3.Controls.Add(this.yoshiTextFuqaro);
             this.guna2Panel3.Controls.Add(this.guna2HtmlLabel7);
-            this.guna2Panel3.Controls.Add(this.guna2TextBox4);
+            this.guna2Panel3.Controls.Add(this.sharifTextFuqaro);
             this.guna2Panel3.Controls.Add(this.guna2HtmlLabel6);
-            this.guna2Panel3.Controls.Add(this.guna2TextBox3);
+            this.guna2Panel3.Controls.Add(this.familyaTextFuqaro);
             this.guna2Panel3.Controls.Add(this.guna2HtmlLabel5);
-            this.guna2Panel3.Controls.Add(this.guna2TextBox2);
+            this.guna2Panel3.Controls.Add(this.ismiTextFuqaro);
             this.guna2Panel3.Controls.Add(this.guna2HtmlLabel4);
-            this.guna2Panel3.Controls.Add(this.guna2TextBox1);
+            this.guna2Panel3.Controls.Add(this.fuqaroIdTextFuqaro);
             this.guna2Panel3.Controls.Add(this.guna2HtmlLabel3);
             this.guna2Panel3.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2Panel3.Location = new System.Drawing.Point(0, 0);
@@ -756,27 +781,27 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.guna2Panel3.Size = new System.Drawing.Size(252, 153);
             this.guna2Panel3.TabIndex = 0;
             // 
-            // guna2TextBox5
+            // yoshiTextFuqaro
             // 
-            this.guna2TextBox5.Animated = true;
-            this.guna2TextBox5.AutoRoundedCorners = true;
-            this.guna2TextBox5.BorderRadius = 9;
-            this.guna2TextBox5.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox5.DefaultText = "";
-            this.guna2TextBox5.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox5.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox5.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox5.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox5.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox5.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.guna2TextBox5.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox5.Location = new System.Drawing.Point(84, 127);
-            this.guna2TextBox5.Name = "guna2TextBox5";
-            this.guna2TextBox5.PasswordChar = '\0';
-            this.guna2TextBox5.PlaceholderText = "";
-            this.guna2TextBox5.SelectedText = "";
-            this.guna2TextBox5.Size = new System.Drawing.Size(150, 20);
-            this.guna2TextBox5.TabIndex = 9;
+            this.yoshiTextFuqaro.Animated = true;
+            this.yoshiTextFuqaro.AutoRoundedCorners = true;
+            this.yoshiTextFuqaro.BorderRadius = 9;
+            this.yoshiTextFuqaro.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.yoshiTextFuqaro.DefaultText = "";
+            this.yoshiTextFuqaro.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.yoshiTextFuqaro.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.yoshiTextFuqaro.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.yoshiTextFuqaro.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.yoshiTextFuqaro.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.yoshiTextFuqaro.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.yoshiTextFuqaro.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.yoshiTextFuqaro.Location = new System.Drawing.Point(84, 127);
+            this.yoshiTextFuqaro.Name = "yoshiTextFuqaro";
+            this.yoshiTextFuqaro.PasswordChar = '\0';
+            this.yoshiTextFuqaro.PlaceholderText = "";
+            this.yoshiTextFuqaro.SelectedText = "";
+            this.yoshiTextFuqaro.Size = new System.Drawing.Size(150, 20);
+            this.yoshiTextFuqaro.TabIndex = 9;
             // 
             // guna2HtmlLabel7
             // 
@@ -789,27 +814,27 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.guna2HtmlLabel7.TabIndex = 8;
             this.guna2HtmlLabel7.Text = "Yoshi";
             // 
-            // guna2TextBox4
+            // sharifTextFuqaro
             // 
-            this.guna2TextBox4.Animated = true;
-            this.guna2TextBox4.AutoRoundedCorners = true;
-            this.guna2TextBox4.BorderRadius = 9;
-            this.guna2TextBox4.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox4.DefaultText = "";
-            this.guna2TextBox4.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox4.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox4.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox4.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox4.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox4.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.guna2TextBox4.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox4.Location = new System.Drawing.Point(85, 99);
-            this.guna2TextBox4.Name = "guna2TextBox4";
-            this.guna2TextBox4.PasswordChar = '\0';
-            this.guna2TextBox4.PlaceholderText = "";
-            this.guna2TextBox4.SelectedText = "";
-            this.guna2TextBox4.Size = new System.Drawing.Size(150, 20);
-            this.guna2TextBox4.TabIndex = 7;
+            this.sharifTextFuqaro.Animated = true;
+            this.sharifTextFuqaro.AutoRoundedCorners = true;
+            this.sharifTextFuqaro.BorderRadius = 9;
+            this.sharifTextFuqaro.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.sharifTextFuqaro.DefaultText = "";
+            this.sharifTextFuqaro.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.sharifTextFuqaro.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.sharifTextFuqaro.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.sharifTextFuqaro.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.sharifTextFuqaro.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.sharifTextFuqaro.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.sharifTextFuqaro.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.sharifTextFuqaro.Location = new System.Drawing.Point(85, 99);
+            this.sharifTextFuqaro.Name = "sharifTextFuqaro";
+            this.sharifTextFuqaro.PasswordChar = '\0';
+            this.sharifTextFuqaro.PlaceholderText = "";
+            this.sharifTextFuqaro.SelectedText = "";
+            this.sharifTextFuqaro.Size = new System.Drawing.Size(150, 20);
+            this.sharifTextFuqaro.TabIndex = 7;
             // 
             // guna2HtmlLabel6
             // 
@@ -822,27 +847,27 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.guna2HtmlLabel6.TabIndex = 6;
             this.guna2HtmlLabel6.Text = "Sharif";
             // 
-            // guna2TextBox3
+            // familyaTextFuqaro
             // 
-            this.guna2TextBox3.Animated = true;
-            this.guna2TextBox3.AutoRoundedCorners = true;
-            this.guna2TextBox3.BorderRadius = 9;
-            this.guna2TextBox3.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox3.DefaultText = "";
-            this.guna2TextBox3.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox3.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox3.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox3.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox3.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox3.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.guna2TextBox3.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox3.Location = new System.Drawing.Point(85, 70);
-            this.guna2TextBox3.Name = "guna2TextBox3";
-            this.guna2TextBox3.PasswordChar = '\0';
-            this.guna2TextBox3.PlaceholderText = "";
-            this.guna2TextBox3.SelectedText = "";
-            this.guna2TextBox3.Size = new System.Drawing.Size(150, 20);
-            this.guna2TextBox3.TabIndex = 5;
+            this.familyaTextFuqaro.Animated = true;
+            this.familyaTextFuqaro.AutoRoundedCorners = true;
+            this.familyaTextFuqaro.BorderRadius = 9;
+            this.familyaTextFuqaro.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.familyaTextFuqaro.DefaultText = "";
+            this.familyaTextFuqaro.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.familyaTextFuqaro.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.familyaTextFuqaro.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.familyaTextFuqaro.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.familyaTextFuqaro.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.familyaTextFuqaro.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.familyaTextFuqaro.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.familyaTextFuqaro.Location = new System.Drawing.Point(85, 70);
+            this.familyaTextFuqaro.Name = "familyaTextFuqaro";
+            this.familyaTextFuqaro.PasswordChar = '\0';
+            this.familyaTextFuqaro.PlaceholderText = "";
+            this.familyaTextFuqaro.SelectedText = "";
+            this.familyaTextFuqaro.Size = new System.Drawing.Size(150, 20);
+            this.familyaTextFuqaro.TabIndex = 5;
             // 
             // guna2HtmlLabel5
             // 
@@ -855,27 +880,27 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.guna2HtmlLabel5.TabIndex = 4;
             this.guna2HtmlLabel5.Text = "Familya";
             // 
-            // guna2TextBox2
+            // ismiTextFuqaro
             // 
-            this.guna2TextBox2.Animated = true;
-            this.guna2TextBox2.AutoRoundedCorners = true;
-            this.guna2TextBox2.BorderRadius = 9;
-            this.guna2TextBox2.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox2.DefaultText = "";
-            this.guna2TextBox2.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox2.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox2.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox2.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox2.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox2.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.guna2TextBox2.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox2.Location = new System.Drawing.Point(86, 40);
-            this.guna2TextBox2.Name = "guna2TextBox2";
-            this.guna2TextBox2.PasswordChar = '\0';
-            this.guna2TextBox2.PlaceholderText = "";
-            this.guna2TextBox2.SelectedText = "";
-            this.guna2TextBox2.Size = new System.Drawing.Size(150, 20);
-            this.guna2TextBox2.TabIndex = 3;
+            this.ismiTextFuqaro.Animated = true;
+            this.ismiTextFuqaro.AutoRoundedCorners = true;
+            this.ismiTextFuqaro.BorderRadius = 9;
+            this.ismiTextFuqaro.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.ismiTextFuqaro.DefaultText = "";
+            this.ismiTextFuqaro.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.ismiTextFuqaro.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.ismiTextFuqaro.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.ismiTextFuqaro.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.ismiTextFuqaro.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.ismiTextFuqaro.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.ismiTextFuqaro.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.ismiTextFuqaro.Location = new System.Drawing.Point(86, 40);
+            this.ismiTextFuqaro.Name = "ismiTextFuqaro";
+            this.ismiTextFuqaro.PasswordChar = '\0';
+            this.ismiTextFuqaro.PlaceholderText = "";
+            this.ismiTextFuqaro.SelectedText = "";
+            this.ismiTextFuqaro.Size = new System.Drawing.Size(150, 20);
+            this.ismiTextFuqaro.TabIndex = 3;
             // 
             // guna2HtmlLabel4
             // 
@@ -888,27 +913,27 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.guna2HtmlLabel4.TabIndex = 2;
             this.guna2HtmlLabel4.Text = "Ismi";
             // 
-            // guna2TextBox1
+            // fuqaroIdTextFuqaro
             // 
-            this.guna2TextBox1.Animated = true;
-            this.guna2TextBox1.AutoRoundedCorners = true;
-            this.guna2TextBox1.BorderRadius = 9;
-            this.guna2TextBox1.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox1.DefaultText = "";
-            this.guna2TextBox1.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox1.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox1.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox1.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.guna2TextBox1.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox1.Location = new System.Drawing.Point(85, 11);
-            this.guna2TextBox1.Name = "guna2TextBox1";
-            this.guna2TextBox1.PasswordChar = '\0';
-            this.guna2TextBox1.PlaceholderText = "";
-            this.guna2TextBox1.SelectedText = "";
-            this.guna2TextBox1.Size = new System.Drawing.Size(150, 20);
-            this.guna2TextBox1.TabIndex = 1;
+            this.fuqaroIdTextFuqaro.Animated = true;
+            this.fuqaroIdTextFuqaro.AutoRoundedCorners = true;
+            this.fuqaroIdTextFuqaro.BorderRadius = 9;
+            this.fuqaroIdTextFuqaro.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.fuqaroIdTextFuqaro.DefaultText = "";
+            this.fuqaroIdTextFuqaro.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.fuqaroIdTextFuqaro.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.fuqaroIdTextFuqaro.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.fuqaroIdTextFuqaro.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.fuqaroIdTextFuqaro.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.fuqaroIdTextFuqaro.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.fuqaroIdTextFuqaro.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.fuqaroIdTextFuqaro.Location = new System.Drawing.Point(85, 11);
+            this.fuqaroIdTextFuqaro.Name = "fuqaroIdTextFuqaro";
+            this.fuqaroIdTextFuqaro.PasswordChar = '\0';
+            this.fuqaroIdTextFuqaro.PlaceholderText = "";
+            this.fuqaroIdTextFuqaro.SelectedText = "";
+            this.fuqaroIdTextFuqaro.Size = new System.Drawing.Size(150, 20);
+            this.fuqaroIdTextFuqaro.TabIndex = 1;
             // 
             // guna2HtmlLabel3
             // 
@@ -1019,39 +1044,61 @@ namespace HarbiyRoyxatgaOlish.Forms
             // 
             // guna2Panel13
             // 
-            this.guna2Panel13.Controls.Add(this.guna2Button6);
+            this.guna2Panel13.Controls.Add(this.harbiyXizmatchiQidirish);
+            this.guna2Panel13.Controls.Add(this.harbiyXzimatchiSaqlash);
             this.guna2Panel13.Dock = System.Windows.Forms.DockStyle.Fill;
             this.guna2Panel13.Location = new System.Drawing.Point(0, 241);
             this.guna2Panel13.Name = "guna2Panel13";
             this.guna2Panel13.Size = new System.Drawing.Size(252, 283);
             this.guna2Panel13.TabIndex = 3;
             // 
-            // guna2Button6
+            // harbiyXizmatchiQidirish
             // 
-            this.guna2Button6.Animated = true;
-            this.guna2Button6.AutoRoundedCorners = true;
-            this.guna2Button6.BackColor = System.Drawing.Color.Transparent;
-            this.guna2Button6.BorderRadius = 14;
-            this.guna2Button6.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button6.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.guna2Button6.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.guna2Button6.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.guna2Button6.FillColor = System.Drawing.Color.Teal;
-            this.guna2Button6.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold);
-            this.guna2Button6.ForeColor = System.Drawing.Color.White;
-            this.guna2Button6.IndicateFocus = true;
-            this.guna2Button6.Location = new System.Drawing.Point(66, 9);
-            this.guna2Button6.Name = "guna2Button6";
-            this.guna2Button6.Size = new System.Drawing.Size(120, 30);
-            this.guna2Button6.TabIndex = 1;
-            this.guna2Button6.Text = "Saqlash";
-            this.guna2Button6.UseTransparentBackground = true;
+            this.harbiyXizmatchiQidirish.Animated = true;
+            this.harbiyXizmatchiQidirish.AutoRoundedCorners = true;
+            this.harbiyXizmatchiQidirish.BackColor = System.Drawing.Color.Transparent;
+            this.harbiyXizmatchiQidirish.BorderRadius = 14;
+            this.harbiyXizmatchiQidirish.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.harbiyXizmatchiQidirish.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.harbiyXizmatchiQidirish.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.harbiyXizmatchiQidirish.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.harbiyXizmatchiQidirish.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(116)))), ((int)(((byte)(39)))));
+            this.harbiyXizmatchiQidirish.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold);
+            this.harbiyXizmatchiQidirish.ForeColor = System.Drawing.Color.White;
+            this.harbiyXizmatchiQidirish.IndicateFocus = true;
+            this.harbiyXizmatchiQidirish.Location = new System.Drawing.Point(66, 49);
+            this.harbiyXizmatchiQidirish.Name = "harbiyXizmatchiQidirish";
+            this.harbiyXizmatchiQidirish.Size = new System.Drawing.Size(120, 30);
+            this.harbiyXizmatchiQidirish.TabIndex = 1;
+            this.harbiyXizmatchiQidirish.Text = "Qidirish";
+            this.harbiyXizmatchiQidirish.UseTransparentBackground = true;
+            // 
+            // harbiyXzimatchiSaqlash
+            // 
+            this.harbiyXzimatchiSaqlash.Animated = true;
+            this.harbiyXzimatchiSaqlash.AutoRoundedCorners = true;
+            this.harbiyXzimatchiSaqlash.BackColor = System.Drawing.Color.Transparent;
+            this.harbiyXzimatchiSaqlash.BorderRadius = 14;
+            this.harbiyXzimatchiSaqlash.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.harbiyXzimatchiSaqlash.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.harbiyXzimatchiSaqlash.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.harbiyXzimatchiSaqlash.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.harbiyXzimatchiSaqlash.FillColor = System.Drawing.Color.Teal;
+            this.harbiyXzimatchiSaqlash.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold);
+            this.harbiyXzimatchiSaqlash.ForeColor = System.Drawing.Color.White;
+            this.harbiyXzimatchiSaqlash.IndicateFocus = true;
+            this.harbiyXzimatchiSaqlash.Location = new System.Drawing.Point(66, 9);
+            this.harbiyXzimatchiSaqlash.Name = "harbiyXzimatchiSaqlash";
+            this.harbiyXzimatchiSaqlash.Size = new System.Drawing.Size(120, 30);
+            this.harbiyXzimatchiSaqlash.TabIndex = 1;
+            this.harbiyXzimatchiSaqlash.Text = "Saqlash";
+            this.harbiyXzimatchiSaqlash.UseTransparentBackground = true;
             // 
             // guna2Panel12
             // 
-            this.guna2Panel12.Controls.Add(this.guna2ComboBox7);
+            this.guna2Panel12.Controls.Add(this.harbiyXizmatUtashJoyiCombo);
             this.guna2Panel12.Controls.Add(this.guna2HtmlLabel22);
-            this.guna2Panel12.Controls.Add(this.guna2ComboBox6);
+            this.guna2Panel12.Controls.Add(this.harbiyUnvonCombo);
             this.guna2Panel12.Controls.Add(this.guna2HtmlLabel17);
             this.guna2Panel12.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2Panel12.Location = new System.Drawing.Point(0, 147);
@@ -1059,22 +1106,22 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.guna2Panel12.Size = new System.Drawing.Size(252, 94);
             this.guna2Panel12.TabIndex = 2;
             // 
-            // guna2ComboBox7
+            // harbiyXizmatUtashJoyiCombo
             // 
-            this.guna2ComboBox7.AutoRoundedCorners = true;
-            this.guna2ComboBox7.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ComboBox7.BorderRadius = 10;
-            this.guna2ComboBox7.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.guna2ComboBox7.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.guna2ComboBox7.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox7.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox7.Font = new System.Drawing.Font("Segoe UI Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.guna2ComboBox7.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.guna2ComboBox7.ItemHeight = 16;
-            this.guna2ComboBox7.Location = new System.Drawing.Point(16, 66);
-            this.guna2ComboBox7.Name = "guna2ComboBox7";
-            this.guna2ComboBox7.Size = new System.Drawing.Size(220, 22);
-            this.guna2ComboBox7.TabIndex = 14;
+            this.harbiyXizmatUtashJoyiCombo.AutoRoundedCorners = true;
+            this.harbiyXizmatUtashJoyiCombo.BackColor = System.Drawing.Color.Transparent;
+            this.harbiyXizmatUtashJoyiCombo.BorderRadius = 10;
+            this.harbiyXizmatUtashJoyiCombo.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.harbiyXizmatUtashJoyiCombo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.harbiyXizmatUtashJoyiCombo.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.harbiyXizmatUtashJoyiCombo.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.harbiyXizmatUtashJoyiCombo.Font = new System.Drawing.Font("Segoe UI Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.harbiyXizmatUtashJoyiCombo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.harbiyXizmatUtashJoyiCombo.ItemHeight = 16;
+            this.harbiyXizmatUtashJoyiCombo.Location = new System.Drawing.Point(16, 66);
+            this.harbiyXizmatUtashJoyiCombo.Name = "harbiyXizmatUtashJoyiCombo";
+            this.harbiyXizmatUtashJoyiCombo.Size = new System.Drawing.Size(220, 22);
+            this.harbiyXizmatUtashJoyiCombo.TabIndex = 14;
             // 
             // guna2HtmlLabel22
             // 
@@ -1087,22 +1134,22 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.guna2HtmlLabel22.TabIndex = 13;
             this.guna2HtmlLabel22.Text = "Harbiy xizmat o\'tash joyi";
             // 
-            // guna2ComboBox6
+            // harbiyUnvonCombo
             // 
-            this.guna2ComboBox6.AutoRoundedCorners = true;
-            this.guna2ComboBox6.BackColor = System.Drawing.Color.Transparent;
-            this.guna2ComboBox6.BorderRadius = 10;
-            this.guna2ComboBox6.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
-            this.guna2ComboBox6.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.guna2ComboBox6.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox6.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2ComboBox6.Font = new System.Drawing.Font("Segoe UI Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.guna2ComboBox6.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
-            this.guna2ComboBox6.ItemHeight = 16;
-            this.guna2ComboBox6.Location = new System.Drawing.Point(16, 22);
-            this.guna2ComboBox6.Name = "guna2ComboBox6";
-            this.guna2ComboBox6.Size = new System.Drawing.Size(220, 22);
-            this.guna2ComboBox6.TabIndex = 12;
+            this.harbiyUnvonCombo.AutoRoundedCorners = true;
+            this.harbiyUnvonCombo.BackColor = System.Drawing.Color.Transparent;
+            this.harbiyUnvonCombo.BorderRadius = 10;
+            this.harbiyUnvonCombo.DrawMode = System.Windows.Forms.DrawMode.OwnerDrawFixed;
+            this.harbiyUnvonCombo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.harbiyUnvonCombo.FocusedColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.harbiyUnvonCombo.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.harbiyUnvonCombo.Font = new System.Drawing.Font("Segoe UI Light", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.harbiyUnvonCombo.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(68)))), ((int)(((byte)(88)))), ((int)(((byte)(112)))));
+            this.harbiyUnvonCombo.ItemHeight = 16;
+            this.harbiyUnvonCombo.Location = new System.Drawing.Point(16, 22);
+            this.harbiyUnvonCombo.Name = "harbiyUnvonCombo";
+            this.harbiyUnvonCombo.Size = new System.Drawing.Size(220, 22);
+            this.harbiyUnvonCombo.TabIndex = 12;
             // 
             // guna2HtmlLabel17
             // 
@@ -1117,13 +1164,13 @@ namespace HarbiyRoyxatgaOlish.Forms
             // 
             // guna2Panel11
             // 
-            this.guna2Panel11.Controls.Add(this.guna2TextBox8);
+            this.guna2Panel11.Controls.Add(this.harbiyXizmatchiSharifText);
             this.guna2Panel11.Controls.Add(this.guna2HtmlLabel18);
-            this.guna2Panel11.Controls.Add(this.guna2TextBox11);
+            this.guna2Panel11.Controls.Add(this.harbiyXizmatchiFamilyaText);
             this.guna2Panel11.Controls.Add(this.guna2HtmlLabel19);
-            this.guna2Panel11.Controls.Add(this.guna2TextBox12);
+            this.guna2Panel11.Controls.Add(this.harbiyXizmatchiIsmiText);
             this.guna2Panel11.Controls.Add(this.guna2HtmlLabel20);
-            this.guna2Panel11.Controls.Add(this.guna2TextBox13);
+            this.guna2Panel11.Controls.Add(this.harbiyXizmatchiIdText);
             this.guna2Panel11.Controls.Add(this.guna2HtmlLabel21);
             this.guna2Panel11.Dock = System.Windows.Forms.DockStyle.Top;
             this.guna2Panel11.Location = new System.Drawing.Point(0, 0);
@@ -1131,27 +1178,27 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.guna2Panel11.Size = new System.Drawing.Size(252, 147);
             this.guna2Panel11.TabIndex = 1;
             // 
-            // guna2TextBox8
+            // harbiyXizmatchiSharifText
             // 
-            this.guna2TextBox8.Animated = true;
-            this.guna2TextBox8.AutoRoundedCorners = true;
-            this.guna2TextBox8.BorderRadius = 9;
-            this.guna2TextBox8.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox8.DefaultText = "";
-            this.guna2TextBox8.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox8.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox8.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox8.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox8.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox8.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.guna2TextBox8.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox8.Location = new System.Drawing.Point(85, 124);
-            this.guna2TextBox8.Name = "guna2TextBox8";
-            this.guna2TextBox8.PasswordChar = '\0';
-            this.guna2TextBox8.PlaceholderText = "";
-            this.guna2TextBox8.SelectedText = "";
-            this.guna2TextBox8.Size = new System.Drawing.Size(150, 20);
-            this.guna2TextBox8.TabIndex = 7;
+            this.harbiyXizmatchiSharifText.Animated = true;
+            this.harbiyXizmatchiSharifText.AutoRoundedCorners = true;
+            this.harbiyXizmatchiSharifText.BorderRadius = 9;
+            this.harbiyXizmatchiSharifText.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.harbiyXizmatchiSharifText.DefaultText = "";
+            this.harbiyXizmatchiSharifText.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.harbiyXizmatchiSharifText.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.harbiyXizmatchiSharifText.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.harbiyXizmatchiSharifText.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.harbiyXizmatchiSharifText.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.harbiyXizmatchiSharifText.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.harbiyXizmatchiSharifText.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.harbiyXizmatchiSharifText.Location = new System.Drawing.Point(85, 124);
+            this.harbiyXizmatchiSharifText.Name = "harbiyXizmatchiSharifText";
+            this.harbiyXizmatchiSharifText.PasswordChar = '\0';
+            this.harbiyXizmatchiSharifText.PlaceholderText = "";
+            this.harbiyXizmatchiSharifText.SelectedText = "";
+            this.harbiyXizmatchiSharifText.Size = new System.Drawing.Size(150, 20);
+            this.harbiyXizmatchiSharifText.TabIndex = 7;
             // 
             // guna2HtmlLabel18
             // 
@@ -1164,27 +1211,27 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.guna2HtmlLabel18.TabIndex = 6;
             this.guna2HtmlLabel18.Text = "Sharif";
             // 
-            // guna2TextBox11
+            // harbiyXizmatchiFamilyaText
             // 
-            this.guna2TextBox11.Animated = true;
-            this.guna2TextBox11.AutoRoundedCorners = true;
-            this.guna2TextBox11.BorderRadius = 9;
-            this.guna2TextBox11.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox11.DefaultText = "";
-            this.guna2TextBox11.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox11.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox11.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox11.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox11.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox11.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.guna2TextBox11.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox11.Location = new System.Drawing.Point(85, 95);
-            this.guna2TextBox11.Name = "guna2TextBox11";
-            this.guna2TextBox11.PasswordChar = '\0';
-            this.guna2TextBox11.PlaceholderText = "";
-            this.guna2TextBox11.SelectedText = "";
-            this.guna2TextBox11.Size = new System.Drawing.Size(150, 20);
-            this.guna2TextBox11.TabIndex = 5;
+            this.harbiyXizmatchiFamilyaText.Animated = true;
+            this.harbiyXizmatchiFamilyaText.AutoRoundedCorners = true;
+            this.harbiyXizmatchiFamilyaText.BorderRadius = 9;
+            this.harbiyXizmatchiFamilyaText.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.harbiyXizmatchiFamilyaText.DefaultText = "";
+            this.harbiyXizmatchiFamilyaText.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.harbiyXizmatchiFamilyaText.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.harbiyXizmatchiFamilyaText.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.harbiyXizmatchiFamilyaText.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.harbiyXizmatchiFamilyaText.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.harbiyXizmatchiFamilyaText.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.harbiyXizmatchiFamilyaText.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.harbiyXizmatchiFamilyaText.Location = new System.Drawing.Point(85, 95);
+            this.harbiyXizmatchiFamilyaText.Name = "harbiyXizmatchiFamilyaText";
+            this.harbiyXizmatchiFamilyaText.PasswordChar = '\0';
+            this.harbiyXizmatchiFamilyaText.PlaceholderText = "";
+            this.harbiyXizmatchiFamilyaText.SelectedText = "";
+            this.harbiyXizmatchiFamilyaText.Size = new System.Drawing.Size(150, 20);
+            this.harbiyXizmatchiFamilyaText.TabIndex = 5;
             // 
             // guna2HtmlLabel19
             // 
@@ -1197,27 +1244,27 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.guna2HtmlLabel19.TabIndex = 4;
             this.guna2HtmlLabel19.Text = "Familya";
             // 
-            // guna2TextBox12
+            // harbiyXizmatchiIsmiText
             // 
-            this.guna2TextBox12.Animated = true;
-            this.guna2TextBox12.AutoRoundedCorners = true;
-            this.guna2TextBox12.BorderRadius = 9;
-            this.guna2TextBox12.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox12.DefaultText = "";
-            this.guna2TextBox12.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox12.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox12.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox12.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox12.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox12.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.guna2TextBox12.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox12.Location = new System.Drawing.Point(86, 65);
-            this.guna2TextBox12.Name = "guna2TextBox12";
-            this.guna2TextBox12.PasswordChar = '\0';
-            this.guna2TextBox12.PlaceholderText = "";
-            this.guna2TextBox12.SelectedText = "";
-            this.guna2TextBox12.Size = new System.Drawing.Size(150, 20);
-            this.guna2TextBox12.TabIndex = 3;
+            this.harbiyXizmatchiIsmiText.Animated = true;
+            this.harbiyXizmatchiIsmiText.AutoRoundedCorners = true;
+            this.harbiyXizmatchiIsmiText.BorderRadius = 9;
+            this.harbiyXizmatchiIsmiText.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.harbiyXizmatchiIsmiText.DefaultText = "";
+            this.harbiyXizmatchiIsmiText.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.harbiyXizmatchiIsmiText.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.harbiyXizmatchiIsmiText.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.harbiyXizmatchiIsmiText.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.harbiyXizmatchiIsmiText.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.harbiyXizmatchiIsmiText.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.harbiyXizmatchiIsmiText.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.harbiyXizmatchiIsmiText.Location = new System.Drawing.Point(86, 65);
+            this.harbiyXizmatchiIsmiText.Name = "harbiyXizmatchiIsmiText";
+            this.harbiyXizmatchiIsmiText.PasswordChar = '\0';
+            this.harbiyXizmatchiIsmiText.PlaceholderText = "";
+            this.harbiyXizmatchiIsmiText.SelectedText = "";
+            this.harbiyXizmatchiIsmiText.Size = new System.Drawing.Size(150, 20);
+            this.harbiyXizmatchiIsmiText.TabIndex = 3;
             // 
             // guna2HtmlLabel20
             // 
@@ -1230,27 +1277,27 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.guna2HtmlLabel20.TabIndex = 2;
             this.guna2HtmlLabel20.Text = "Ismi";
             // 
-            // guna2TextBox13
+            // harbiyXizmatchiIdText
             // 
-            this.guna2TextBox13.Animated = true;
-            this.guna2TextBox13.AutoRoundedCorners = true;
-            this.guna2TextBox13.BorderRadius = 9;
-            this.guna2TextBox13.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.guna2TextBox13.DefaultText = "";
-            this.guna2TextBox13.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.guna2TextBox13.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.guna2TextBox13.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox13.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.guna2TextBox13.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox13.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.guna2TextBox13.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.guna2TextBox13.Location = new System.Drawing.Point(18, 33);
-            this.guna2TextBox13.Name = "guna2TextBox13";
-            this.guna2TextBox13.PasswordChar = '\0';
-            this.guna2TextBox13.PlaceholderText = "";
-            this.guna2TextBox13.SelectedText = "";
-            this.guna2TextBox13.Size = new System.Drawing.Size(220, 20);
-            this.guna2TextBox13.TabIndex = 1;
+            this.harbiyXizmatchiIdText.Animated = true;
+            this.harbiyXizmatchiIdText.AutoRoundedCorners = true;
+            this.harbiyXizmatchiIdText.BorderRadius = 9;
+            this.harbiyXizmatchiIdText.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.harbiyXizmatchiIdText.DefaultText = "";
+            this.harbiyXizmatchiIdText.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.harbiyXizmatchiIdText.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.harbiyXizmatchiIdText.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.harbiyXizmatchiIdText.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.harbiyXizmatchiIdText.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.harbiyXizmatchiIdText.Font = new System.Drawing.Font("Century Gothic", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.harbiyXizmatchiIdText.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.harbiyXizmatchiIdText.Location = new System.Drawing.Point(18, 33);
+            this.harbiyXizmatchiIdText.Name = "harbiyXizmatchiIdText";
+            this.harbiyXizmatchiIdText.PasswordChar = '\0';
+            this.harbiyXizmatchiIdText.PlaceholderText = "";
+            this.harbiyXizmatchiIdText.SelectedText = "";
+            this.harbiyXizmatchiIdText.Size = new System.Drawing.Size(220, 20);
+            this.harbiyXizmatchiIdText.TabIndex = 1;
             // 
             // guna2HtmlLabel21
             // 
@@ -1272,6 +1319,24 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.harbiyXizmatchilarTab.TabIndex = 2;
             this.harbiyXizmatchilarTab.Text = "Ro\'yxatdagi harbiy xizmatchilar";
             // 
+            // Column1
+            // 
+            this.Column1.DataPropertyName = "Id";
+            this.Column1.HeaderText = "Id";
+            this.Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            this.Column2.DataPropertyName = "Ism";
+            this.Column2.HeaderText = "Ism";
+            this.Column2.Name = "Column2";
+            // 
+            // Column3
+            // 
+            this.Column3.DataPropertyName = "Id";
+            this.Column3.HeaderText = "Id";
+            this.Column3.Name = "Column3";
+            // 
             // HarbiyRoyxatgaOlish
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1291,12 +1356,12 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.fuqaroTab.ResumeLayout(false);
             this.guna2Panel7.ResumeLayout(false);
             this.guna2Panel7.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView2)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chaqiriluvchiFuqaroData)).EndInit();
             this.guna2Panel9.ResumeLayout(false);
             this.guna2Panel9.PerformLayout();
             this.guna2Panel6.ResumeLayout(false);
             this.guna2Panel6.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.voyagaYetganFuqaroData)).EndInit();
             this.guna2Panel8.ResumeLayout(false);
             this.guna2Panel8.PerformLayout();
             this.guna2Panel2.ResumeLayout(false);
@@ -1332,63 +1397,67 @@ namespace HarbiyRoyxatgaOlish.Forms
         private System.Windows.Forms.TabPage chaqirilganTab;
         private System.Windows.Forms.TabPage harbiyXizmatchilarTab;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox1;
+        private Guna.UI2.WinForms.Guna2TextBox fuqaroIdTextFuqaro;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel3;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox5;
+        private Guna.UI2.WinForms.Guna2TextBox yoshiTextFuqaro;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel7;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox4;
+        private Guna.UI2.WinForms.Guna2TextBox sharifTextFuqaro;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel6;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox3;
+        private Guna.UI2.WinForms.Guna2TextBox familyaTextFuqaro;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel5;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox2;
+        private Guna.UI2.WinForms.Guna2TextBox ismiTextFuqaro;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel4;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel4;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel8;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel10;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox9;
+        private Guna.UI2.WinForms.Guna2TextBox vazniTextFuqaro;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel11;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox10;
+        private Guna.UI2.WinForms.Guna2TextBox boyiTextFuqaro;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel12;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox5;
+        private Guna.UI2.WinForms.Guna2ComboBox xizmatJoyiComboFuqaro;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel14;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox4;
+        private Guna.UI2.WinForms.Guna2ComboBox kontraktComboFuqaro;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel13;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox3;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox1;
+        private Guna.UI2.WinForms.Guna2ComboBox xizmatTuriComboFuqaro;
+        private Guna.UI2.WinForms.Guna2ComboBox tashxisComboFuqaro;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel5;
-        private Guna.UI2.WinForms.Guna2Button guna2Button3;
-        private Guna.UI2.WinForms.Guna2Button guna2Button2;
-        private Guna.UI2.WinForms.Guna2Button guna2Button1;
-        private Guna.UI2.WinForms.Guna2Button guna2Button4;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox6;
+        private Guna.UI2.WinForms.Guna2Button deleteButtonFuqaro;
+        private Guna.UI2.WinForms.Guna2Button editButtonFuqaro;
+        private Guna.UI2.WinForms.Guna2Button addButtonFuqaro;
+        private Guna.UI2.WinForms.Guna2Button searchButtonFuqaro;
+        private Guna.UI2.WinForms.Guna2TextBox xabarTextFuqaro;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel7;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel6;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel16;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel15;
-        private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView2;
+        private Guna.UI2.WinForms.Guna2DataGridView chaqiriluvchiFuqaroData;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel9;
-        private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView1;
+        private Guna.UI2.WinForms.Guna2DataGridView voyagaYetganFuqaroData;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel8;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel10;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel11;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox8;
+        private Guna.UI2.WinForms.Guna2TextBox harbiyXizmatchiSharifText;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel18;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox11;
+        private Guna.UI2.WinForms.Guna2TextBox harbiyXizmatchiFamilyaText;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel19;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox12;
+        private Guna.UI2.WinForms.Guna2TextBox harbiyXizmatchiIsmiText;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel20;
-        private Guna.UI2.WinForms.Guna2TextBox guna2TextBox13;
+        private Guna.UI2.WinForms.Guna2TextBox harbiyXizmatchiIdText;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel21;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel12;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox7;
+        private Guna.UI2.WinForms.Guna2ComboBox harbiyXizmatUtashJoyiCombo;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel22;
-        private Guna.UI2.WinForms.Guna2ComboBox guna2ComboBox6;
+        private Guna.UI2.WinForms.Guna2ComboBox harbiyUnvonCombo;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel17;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel13;
-        private Guna.UI2.WinForms.Guna2Button guna2Button5;
-        private Guna.UI2.WinForms.Guna2Button guna2Button6;
+        private Guna.UI2.WinForms.Guna2Button sentButtonFuqaro;
+        private Guna.UI2.WinForms.Guna2Button harbiyXzimatchiSaqlash;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel14;
         private Guna.UI2.WinForms.Guna2HtmlLabel guna2HtmlLabel23;
         private Guna.UI2.WinForms.Guna2DataGridView guna2DataGridView3;
+        private Guna.UI2.WinForms.Guna2Button harbiyXizmatchiQidirish;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
     }
 }
