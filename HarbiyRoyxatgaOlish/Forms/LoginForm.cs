@@ -40,6 +40,10 @@ namespace HarbiyRoyxatgaOlish
                     
                 }
             }
+            else
+            {
+                MessageBox.Show("Parol yoki Login noto'gri kiritildi. Iltimos tekshirib qayta tering!", "Bildirishnoma");
+            }
         }
     }
 }

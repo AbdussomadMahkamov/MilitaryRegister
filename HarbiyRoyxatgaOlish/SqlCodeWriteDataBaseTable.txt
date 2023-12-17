@@ -1,0 +1,160 @@
+﻿--Viloyat jadvali--
+CREATE TABLE [dbo].[Viloyat] (
+    [Id]   INT          IDENTITY (1, 1) NOT NULL,
+    [Nomi] VARCHAR (50) NOT NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+---Viloyat jadvaliga ma'lumot yozish---
+insert into Viloyat values
+('Andijon'),
+('Buxoro'),
+('Fargona'),
+('Jizzax'),
+('Xorazm'),
+('Namangan'),
+('Navoiy'),
+('Qashqadaryo'),
+('Qoraqalpogiston Respublikasi'),
+('Samarqand'),
+('Sirdaryo'),
+('Surxandaryo'),
+('Toshkent');
+
+--Tuman jadvali--
+CREATE TABLE [dbo].[Tuman] (
+    [Id]        INT          IDENTITY (1, 1) NOT NULL,
+    [Nomi]      VARCHAR (50) NOT NULL,
+    [ViloyatId] INT          NOT NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC),
+    CONSTRAINT [FK1] FOREIGN KEY ([ViloyatId]) REFERENCES [dbo].[Viloyat] ([Id]) ON DELETE CASCADE
+);
+---Tuman jadvaliga ma'lumot yozish---
+insert into Tuman values
+('Bulungur', 10),
+('Ishtixon', 10),
+('Jomboy', 10),
+('Kattaqorgon', 10),
+('Payariq', 10),
+('Samarqand', 10),
+('Arnasoy', 4),
+('Baxmal', 4),
+('Sharof Rashidov', 4),
+('Zomin', 4),
+('Olot', 2),
+('Buxoro', 2),
+('Jondor', 2),
+('Kogon', 2),
+('Romitan', 2);
+
+--Mahalla jadvali--
+CREATE TABLE [dbo].[Mahalla] (
+    [Id]      INT          IDENTITY (1, 1) NOT NULL,
+    [Nomi]    VARCHAR (50) NOT NULL,
+    [TumanId] INT          NOT NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC),
+    CONSTRAINT [FK2] FOREIGN KEY ([TumanId]) REFERENCES [dbo].[Tuman] ([Id]) ON DELETE CASCADE
+);
+---Mahalla jadvaliga ma'lumot yozish---
+insert into Mahalla values
+('Bulungur1', 1),
+('Ishtixon1', 2),
+('Jomboy1', 3),
+('Kattaqorgon1', 4),
+('Payariq1', 5),
+('Samarqand1', 6),
+('Arnasoy1', 7);
+
+--Fuqarolar jadvali--
+CREATE TABLE [dbo].[Fuqarolar] (
+    [Id]              INT          IDENTITY (1, 1) NOT NULL,
+    [Ism]             VARCHAR (50) NOT NULL,
+    [Familya]         VARCHAR (50) NOT NULL,
+    [Sharif]          VARCHAR (50) NOT NULL,
+    [TugulganSana]    NCHAR (10)   NOT NULL,
+    [Jinsi]           VARCHAR (50) NOT NULL,
+    [Malumoti]        VARCHAR (50) NOT NULL,
+    [Yoshi]           INT          NOT NULL,
+    [YashashManzilId] INT          NOT NULL,
+    [Epochta]         VARCHAR (50) NOT NULL,
+    [Manzili]         VARCHAR (50) NOT NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC),
+    CONSTRAINT [FK4] FOREIGN KEY ([YashashManzilId]) REFERENCES [dbo].[Mahalla] ([Id]) ON DELETE CASCADE
+);
+---Fuqarolar jadvaliga ma'lumot yozish---
+insert into Fuqarolar values
+('Ali','Valijonov', 'Valijonovich', '25.05.2000', 'Erkak', 'Oliy', 23, 1, 'maxkamovabdusamat@gmail.com', 'Beshbola 2-uy'),
+('Akmal','Axrorov', 'Valijonovich', '25.05.2002', 'Erkak', 'Oliy', 21, 2, 'maxkamovabdusamat@gmail.com', 'Ipakchi 92-uy'),
+('Aliya','Valijonova', 'Valijonovna', '25.05.2003', 'Ayol', 'Professional', 20, 3, 'maxkamovabdusamat@gmail.com', 'Fozil yoldosh 32-uy'),
+('Shahnoza','Umarova', 'Tohirovna', '25.05.2005', 'Ayol', 'Orta', 18, 4, 'maxkamovabdusamat@gmail.com', 'Mehnatchilar 45-uy'),
+('Alijon','Vohidjonov', 'Valijonovich', '25.05.2000', 'Erkak', 'Professional', 23, 5, 'maxkamovabdusamat@gmail.com', 'Beshiktosh 2-uy'),
+('Ahmad','Alijonov', 'Vohidovich', '25.05.2008', 'Erkak', 'Oliy', 15, 6, 'maxkamovabdusamat@gmail.com', 'Guliston 41-uy'),
+('Sumayya','Rahimova', 'Umarovna', '25.05.2007', 'Ayol', 'Orta', 16, 7, 'maxkamovabdusamat@gmail.com', 'Fozilchi 32-uy'),
+('Umida','Akbarova', 'Tohirovna', '25.05.2004', 'Ayol', 'Professional', 17, 5, 'maxkamovabdusamat@gmail.com', 'Beshqorgon 45-uy');
+
+--Users jadvali--
+CREATE TABLE [dbo].[Users] (
+    [Id]       INT          IDENTITY (1, 1) NOT NULL,
+    [FuqaroId] INT          NOT NULL,
+    [Login]    VARCHAR (50) NOT NULL,
+    [Parol]    VARCHAR (50) NOT NULL,
+    [Lavozim]  VARCHAR (50) NOT NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC),
+    CONSTRAINT [FK5] FOREIGN KEY ([FuqaroId]) REFERENCES [dbo].[Fuqarolar] ([Id]) ON DELETE CASCADE
+);
+---Users jadvaliga ma'lumot yozish---
+insert into Users values
+(1, 'ali', 'ali', 'SuperAdmin'),
+(4, 'shahnoz', '123', 'Admin');
+
+--VoyagaYetgan jadvali--
+CREATE TABLE [dbo].[VoyagaYetgan] (
+    [Id]       INT          IDENTITY (1, 1) NOT NULL,
+    [FuqaroId] INT          NOT NULL,
+    [Ism]      VARCHAR (50) NOT NULL,
+    [Familya]  VARCHAR (50) NOT NULL,
+    [Sharif]   VARCHAR (50) NOT NULL,
+    [Yosh]     INT          NOT NULL,
+    [Epochta]  VARCHAR (50) NOT NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC),
+    CONSTRAINT [FKV] FOREIGN KEY ([FuqaroId]) REFERENCES [dbo].[Fuqarolar] ([Id]) ON DELETE CASCADE
+);
+
+--Chaqirilganlar jadvali--
+CREATE TABLE [dbo].[Chaqirilganlar] (
+    [Id]           INT          IDENTITY (1, 1) NOT NULL,
+    [FuqaroId]     INT          NOT NULL,
+    [Ism]          VARCHAR (50) NOT NULL,
+    [Familya]      VARCHAR (50) NOT NULL,
+    [Sharif]       VARCHAR (50) NOT NULL,
+    [Yosh]         INT          NOT NULL,
+    [Boyi]         VARCHAR (50) NOT NULL,
+    [Vazni]        VARCHAR (50) NOT NULL,
+    [Tashxis]      VARCHAR (50) NOT NULL,
+    [XizmatTuri]   VARCHAR (50) NULL,
+    [Kontrakt]     VARCHAR (50) NULL,
+    [XizmatJoyi]   VARCHAR (50) NULL,
+    [HarbiyUnvoni] VARCHAR (50) NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+
+--XizmatJoyi jadvali--
+CREATE TABLE [dbo].[XizmatJoyi] (
+    [Id]      INT          IDENTITY (1, 1) NOT NULL,
+    [JoyNomi] VARCHAR (50) NOT NULL,
+    [Manzil]  VARCHAR (50) NOT NULL,
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+
+--YuborilganXabarlar jadvali--
+CREATE TABLE [dbo].[YuborilganXabarlar] (
+    [Id]       INT          IDENTITY (1, 1) NOT NULL,
+    [FuqaroId] INT          NOT NULL,
+    [Ism]      VARCHAR (50) NOT NULL,
+    [Familya]  VARCHAR (50) NOT NULL,
+    [Sharif]   VARCHAR (50) NOT NULL,
+    [Epochta]  VARCHAR (50) NOT NULL,
+    [Matn] TEXT NULL, 
+    PRIMARY KEY CLUSTERED ([Id] ASC)
+);
+
+----Jadvallar yaratib bo'lindi----

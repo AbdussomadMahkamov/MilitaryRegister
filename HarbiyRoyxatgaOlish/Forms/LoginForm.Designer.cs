@@ -70,7 +70,7 @@ namespace HarbiyRoyxatgaOlish
             this.loginText.PlaceholderText = "Login . . .";
             this.loginText.SelectedText = "";
             this.loginText.Size = new System.Drawing.Size(200, 36);
-            this.loginText.TabIndex = 2;
+            this.loginText.TabIndex = 0;
             // 
             // parolText
             // 
@@ -90,7 +90,7 @@ namespace HarbiyRoyxatgaOlish
             this.parolText.PlaceholderText = "Parol . . .";
             this.parolText.SelectedText = "";
             this.parolText.Size = new System.Drawing.Size(200, 36);
-            this.parolText.TabIndex = 2;
+            this.parolText.TabIndex = 1;
             // 
             // guna2Button1
             // 
@@ -104,13 +104,13 @@ namespace HarbiyRoyxatgaOlish
             this.guna2Button1.Location = new System.Drawing.Point(401, 285);
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(150, 45);
-            this.guna2Button1.TabIndex = 3;
+            this.guna2Button1.TabIndex = 2;
             this.guna2Button1.Text = "Kirish";
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // guna2Panel1
             // 
-            this.guna2Panel1.BackgroundImage = global::HarbiyRoyxatgaOlish.Properties.Resources.mudofaaLogo;
+            this.guna2Panel1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("guna2Panel1.BackgroundImage")));
             this.guna2Panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
             this.guna2Panel1.Dock = System.Windows.Forms.DockStyle.Left;
             this.guna2Panel1.Location = new System.Drawing.Point(0, 0);

@@ -39,7 +39,7 @@ namespace HarbiyRoyxatgaOlish.Forms
                 case "Xarbiylar":
                     Query = "Select * From Chaqirilganlar";
                     harbiylarData.DataSource = Con.GetData(Query);
-                    Unvoni();
+                    //Unvoni();
                     break;
                 default: break;
             }
@@ -54,14 +54,14 @@ namespace HarbiyRoyxatgaOlish.Forms
             xizmatJoyiComboFuqaro.DataSource = Con.GetData(Query);
             dtable = Con.GetData(Query);
         }
-        public void Unvoni()
-        {
-            string Query = "select * from Unvon";
-            xizmatJoyiComboFuqaro.DisplayMember = Con.GetData(Query).Columns["Nomi"].ToString();
-            xizmatJoyiComboFuqaro.ValueMember = Con.GetData(Query).Columns["Id"].ToString();
-            xizmatJoyiComboFuqaro.DataSource = Con.GetData(Query);
-            dtable2 = Con.GetData(Query);
-        }
+        //public void Unvoni()
+        //{
+        //    string Query = "select * from Unvon";
+        //    xizmatJoyiComboFuqaro.DisplayMember = Con.GetData(Query).Columns["Nomi"].ToString();
+        //    xizmatJoyiComboFuqaro.ValueMember = Con.GetData(Query).Columns["Id"].ToString();
+        //    xizmatJoyiComboFuqaro.DataSource = Con.GetData(Query);
+        //    dtable2 = Con.GetData(Query);
+        //}
 
         private void guna2TabControl1_SelectedIndexChanged(object sender, EventArgs e)
         {

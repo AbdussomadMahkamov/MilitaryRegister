@@ -55,7 +55,7 @@ namespace HarbiyRoyxatgaOlish.Forms
                     GetMahallaFuqaro();
                     break;
                 case "Users":
-                    Query = "select Fuqarolar.Ism, Fuqarolar.Familya, Fuqarolar.Sharif, U.Login, U.Parol, U.Lavozim from Users as U inner join Fuqarolar on Fuqarolar.Id=U.FuqaroId;";
+                    Query = "select U.Id, Fuqarolar.Id, Fuqarolar.Ism, Fuqarolar.Familya, Fuqarolar.Sharif, U.Login, U.Parol, U.Lavozim from Users as U inner join Fuqarolar on Fuqarolar.Id=U.FuqaroId;";
                     userData.DataSource = Con.GetData(Query);
                     break;
                 default: break;
@@ -559,6 +559,121 @@ namespace HarbiyRoyxatgaOlish.Forms
         private void fuqaroData_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
 
+        }
+        int KeyUsersId = 0;
+        private void tizimgaOtishButton_Click(object sender, EventArgs e)
+        {
+            Forms.HarbiyRoyxatgaOlish harbiyRoyxatgaOlish = new Forms.HarbiyRoyxatgaOlish();
+            this.Hide();
+            harbiyRoyxatgaOlish.Show();
+        }
+
+        private void addButtonUser_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (fuqaroIdTextUser.Text == "" || loginTextUser.Text == "" || parolTextUser.Text == "" || lavozimTextUser.Text == "")
+                {
+                    MessageBox.Show("Maydonlarni ma'lumot bilan to'laligiga e'tibor qiling!", "Eslatma");
+                }
+                else
+                {
+                    string Query = "insert into Users values('{0}', '{1}', '{2}', '{3}')";
+                    Query = string.Format(Query, fuqaroIdTextUser.Text, loginTextUser.Text, parolTextUser.Text, lavozimTextUser.Text);
+                    Con.SetData(Query);
+                    ShowTable("Users");
+                    MessageBox.Show("Malumotlar muvoffaqiyatli saqlandi", "Bildirishnoma");
+                    KeyUsersId = 0;
+                    fuqaroIdTextUser.Text = "";
+                    loginTextUser.Text = "";
+                    parolTextUser.Text = "";
+                    lavozimTextUser.Text = "";
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void editButtonUser_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (fuqaroIdTextUser.Text == "" || loginTextUser.Text == "" || parolTextUser.Text == "")
+                {
+                    MessageBox.Show("Iltimos maydonni ma'lumot bilan to'ldiring", "Bildirishnoma");
+                }
+                else
+                {
+                    string Query = "update Users set Login='{0}', Parol='{1}' where FuqaroId='{2}'";
+                    Query = string.Format(Query, loginTextUser.Text, parolTextUser.Text, fuqaroIdTextUser.Text);
+                    Con.SetData(Query);
+                    ShowTable("Users");
+                    MessageBox.Show("Ma'lumotlar muvoffaqiyatli tahrirlandi", "Bildirishnoma");
+                    fuqaroIdTextUser.Text = "";
+                    loginTextUser.Text = "";
+                    parolTextUser.Text = "";
+                    lavozimTextUser.Text = "";
+                    KeyUsersId = 0;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Bildirishnoma", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void deleteButtonUser_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (fuqaroIdTextUser.Text == "")
+                {
+                    MessageBox.Show("Iltimos maydonni ma'lumot bilan to'ldiring", "Bildirishnoma");
+                }
+                else
+                {
+                    string Query = "delete from Users where FuqaroId='{0}'";
+                    Query = string.Format(Query, fuqaroIdTextUser.Text);
+                    Con.SetData(Query);
+                    ShowTable("Mahalla");
+                    MessageBox.Show("Ma'lumotlar muvoffaqiyatli tahrirlandi", "Bildirishnoma");
+                    fuqaroIdTextUser.Text = "";
+                    loginTextUser.Text = "";
+                    parolTextUser.Text = "";
+                    lavozimTextUser.Text = "";
+                    KeyUsersId = 0;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Bildirishnoma", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void userData_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            try
+            {
+                fuqaroIdTextUser.Text = userData.SelectedRows[0].Cells[1].Value.ToString();
+                loginTextUser.Text = userData.SelectedRows[0].Cells[5].Value.ToString();
+                parolTextUser.Text = userData.SelectedRows[0].Cells[6].Value.ToString();
+                lavozimTextUser.Text = userData.SelectedRows[0].Cells[7].Value.ToString();
+                if (mahallaText.Text == "")
+                {
+                    KeyUsersId = 0;
+                }
+                else
+                {
+                    KeyUsersId = Convert.ToInt32(mahallaData.SelectedRows[0].Cells[1].Value.ToString());
+                }
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message, "Bildirishnoma", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
         //Fuqaro oynasi yakuni
         //Users oynasi boshlanishi

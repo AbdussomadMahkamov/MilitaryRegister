@@ -120,9 +120,13 @@
     <None Include="Img\person.png" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="HarbiyRoyxatDB.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Img\adminIcon.ico" />
     <Content Include="Img\generalIcon.ico" />
     <Content Include="Img\mudofaaLogo.png" />
+    <Content Include="SqlCodeWriteDataBaseTable.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

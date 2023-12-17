@@ -80,6 +80,7 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.fuqaroTab = new System.Windows.Forms.TabPage();
             this.fuqaroData = new Guna.UI2.WinForms.Guna2DataGridView();
             this.guna2Panel8 = new Guna.UI2.WinForms.Guna2Panel();
+            this.yoshiText = new Guna.UI2.WinForms.Guna2TextBox();
             this.epochtaText = new Guna.UI2.WinForms.Guna2TextBox();
             this.malumotiComboFuqaro = new Guna.UI2.WinForms.Guna2ComboBox();
             this.jinsiComboFuqaro = new Guna.UI2.WinForms.Guna2ComboBox();
@@ -105,7 +106,12 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.deleteButtonUser = new Guna.UI2.WinForms.Guna2Button();
             this.editButtonUser = new Guna.UI2.WinForms.Guna2Button();
             this.fuqaroIdTextUser = new Guna.UI2.WinForms.Guna2TextBox();
-            this.yoshiText = new Guna.UI2.WinForms.Guna2TextBox();
+            this.Column1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column2 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column3 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.Column5 = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            this.tizimgaOtishButton = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.guna2TabControl1.SuspendLayout();
@@ -243,6 +249,8 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.viloyatData.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
             this.viloyatData.ColumnHeadersHeight = 24;
             this.viloyatData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.viloyatData.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column1});
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -400,6 +408,8 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.tumanData.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
             this.tumanData.ColumnHeadersHeight = 24;
             this.tumanData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.tumanData.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column2});
             dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle6.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -574,6 +584,8 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.mahallaData.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
             this.mahallaData.ColumnHeadersHeight = 24;
             this.mahallaData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.mahallaData.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column3});
             dataGridViewCellStyle9.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle9.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle9.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -764,6 +776,8 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.fuqaroData.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle11;
             this.fuqaroData.ColumnHeadersHeight = 24;
             this.fuqaroData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.fuqaroData.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column4});
             dataGridViewCellStyle12.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle12.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle12.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -821,6 +835,26 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.guna2Panel8.Name = "guna2Panel8";
             this.guna2Panel8.Size = new System.Drawing.Size(200, 634);
             this.guna2Panel8.TabIndex = 2;
+            // 
+            // yoshiText
+            // 
+            this.yoshiText.BorderRadius = 10;
+            this.yoshiText.Cursor = System.Windows.Forms.Cursors.IBeam;
+            this.yoshiText.DefaultText = "";
+            this.yoshiText.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
+            this.yoshiText.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
+            this.yoshiText.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.yoshiText.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
+            this.yoshiText.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.yoshiText.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.yoshiText.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
+            this.yoshiText.Location = new System.Drawing.Point(5, 383);
+            this.yoshiText.Name = "yoshiText";
+            this.yoshiText.PasswordChar = '\0';
+            this.yoshiText.PlaceholderText = "Yoshi";
+            this.yoshiText.SelectedText = "";
+            this.yoshiText.Size = new System.Drawing.Size(190, 36);
+            this.yoshiText.TabIndex = 14;
             // 
             // epochtaText
             // 
@@ -1096,6 +1130,8 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.userData.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle14;
             this.userData.ColumnHeadersHeight = 24;
             this.userData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
+            this.userData.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
+            this.Column5});
             dataGridViewCellStyle15.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle15.BackColor = System.Drawing.Color.White;
             dataGridViewCellStyle15.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
@@ -1132,6 +1168,7 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.userData.ThemeStyle.RowsStyle.Height = 22;
             this.userData.ThemeStyle.RowsStyle.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(231)))), ((int)(((byte)(229)))), ((int)(((byte)(255)))));
             this.userData.ThemeStyle.RowsStyle.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(71)))), ((int)(((byte)(69)))), ((int)(((byte)(94)))));
+            this.userData.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.userData_CellContentClick);
             // 
             // panel1
             // 
@@ -1208,13 +1245,14 @@ namespace HarbiyRoyxatgaOlish.Forms
             // 
             // guna2Panel11
             // 
+            this.guna2Panel11.Controls.Add(this.tizimgaOtishButton);
             this.guna2Panel11.Controls.Add(this.addButtonUser);
             this.guna2Panel11.Controls.Add(this.deleteButtonUser);
             this.guna2Panel11.Controls.Add(this.editButtonUser);
             this.guna2Panel11.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.guna2Panel11.Location = new System.Drawing.Point(0, 482);
+            this.guna2Panel11.Location = new System.Drawing.Point(0, 438);
             this.guna2Panel11.Name = "guna2Panel11";
-            this.guna2Panel11.Size = new System.Drawing.Size(200, 152);
+            this.guna2Panel11.Size = new System.Drawing.Size(200, 196);
             this.guna2Panel11.TabIndex = 7;
             // 
             // addButtonUser
@@ -1231,6 +1269,7 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.addButtonUser.Size = new System.Drawing.Size(180, 40);
             this.addButtonUser.TabIndex = 2;
             this.addButtonUser.Text = "Qo\'shish";
+            this.addButtonUser.Click += new System.EventHandler(this.addButtonUser_Click);
             // 
             // deleteButtonUser
             // 
@@ -1247,6 +1286,7 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.deleteButtonUser.Size = new System.Drawing.Size(180, 40);
             this.deleteButtonUser.TabIndex = 2;
             this.deleteButtonUser.Text = "O\'chirish";
+            this.deleteButtonUser.Click += new System.EventHandler(this.deleteButtonUser_Click);
             // 
             // editButtonUser
             // 
@@ -1263,6 +1303,7 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.editButtonUser.Size = new System.Drawing.Size(180, 40);
             this.editButtonUser.TabIndex = 2;
             this.editButtonUser.Text = "Tahrirlash";
+            this.editButtonUser.Click += new System.EventHandler(this.editButtonUser_Click);
             // 
             // fuqaroIdTextUser
             // 
@@ -1284,25 +1325,52 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.fuqaroIdTextUser.Size = new System.Drawing.Size(190, 36);
             this.fuqaroIdTextUser.TabIndex = 6;
             // 
-            // yoshiText
+            // Column1
             // 
-            this.yoshiText.BorderRadius = 10;
-            this.yoshiText.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.yoshiText.DefaultText = "";
-            this.yoshiText.DisabledState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(208)))), ((int)(((byte)(208)))), ((int)(((byte)(208)))));
-            this.yoshiText.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(226)))), ((int)(((byte)(226)))), ((int)(((byte)(226)))));
-            this.yoshiText.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.yoshiText.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
-            this.yoshiText.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.yoshiText.Font = new System.Drawing.Font("Segoe UI", 9F);
-            this.yoshiText.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.yoshiText.Location = new System.Drawing.Point(5, 383);
-            this.yoshiText.Name = "yoshiText";
-            this.yoshiText.PasswordChar = '\0';
-            this.yoshiText.PlaceholderText = "Yoshi";
-            this.yoshiText.SelectedText = "";
-            this.yoshiText.Size = new System.Drawing.Size(190, 36);
-            this.yoshiText.TabIndex = 14;
+            this.Column1.DataPropertyName = "Id";
+            this.Column1.HeaderText = "Id";
+            this.Column1.Name = "Column1";
+            // 
+            // Column2
+            // 
+            this.Column2.DataPropertyName = "Id";
+            this.Column2.HeaderText = "Id";
+            this.Column2.Name = "Column2";
+            // 
+            // Column3
+            // 
+            this.Column3.DataPropertyName = "Id";
+            this.Column3.HeaderText = "Id";
+            this.Column3.Name = "Column3";
+            // 
+            // Column4
+            // 
+            this.Column4.DataPropertyName = "Id";
+            this.Column4.HeaderText = "Id";
+            this.Column4.Name = "Column4";
+            // 
+            // Column5
+            // 
+            this.Column5.DataPropertyName = "Id";
+            this.Column5.HeaderText = "Id";
+            this.Column5.Name = "Column5";
+            // 
+            // tizimgaOtishButton
+            // 
+            this.tizimgaOtishButton.BorderRadius = 15;
+            this.tizimgaOtishButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.tizimgaOtishButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.tizimgaOtishButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.tizimgaOtishButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.tizimgaOtishButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(0)))));
+            this.tizimgaOtishButton.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
+            this.tizimgaOtishButton.ForeColor = System.Drawing.Color.White;
+            this.tizimgaOtishButton.Location = new System.Drawing.Point(5, 152);
+            this.tizimgaOtishButton.Name = "tizimgaOtishButton";
+            this.tizimgaOtishButton.Size = new System.Drawing.Size(180, 40);
+            this.tizimgaOtishButton.TabIndex = 3;
+            this.tizimgaOtishButton.Text = "Tizimga o\'tish";
+            this.tizimgaOtishButton.Click += new System.EventHandler(this.tizimgaOtishButton_Click);
             // 
             // QoshimchaMalumotlar
             // 
@@ -1409,5 +1477,11 @@ namespace HarbiyRoyxatgaOlish.Forms
         private Guna.UI2.WinForms.Guna2TextBox fuqaroIdTextUser;
         private Guna.UI2.WinForms.Guna2TextBox epochtaText;
         private Guna.UI2.WinForms.Guna2TextBox yoshiText;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column1;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column2;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column3;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private System.Windows.Forms.DataGridViewTextBoxColumn Column5;
+        private Guna.UI2.WinForms.Guna2Button tizimgaOtishButton;
     }
 }

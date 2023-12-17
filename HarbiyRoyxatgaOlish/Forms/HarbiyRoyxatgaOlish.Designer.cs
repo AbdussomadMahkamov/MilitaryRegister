@@ -29,6 +29,7 @@ namespace HarbiyRoyxatgaOlish.Forms
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HarbiyRoyxatgaOlish));
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
@@ -38,7 +39,6 @@ namespace HarbiyRoyxatgaOlish.Forms
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle7 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle8 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle9 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HarbiyRoyxatgaOlish));
             this.guna2Panel1 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2HtmlLabel2 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2HtmlLabel1 = new Guna.UI2.WinForms.Guna2HtmlLabel();
@@ -95,6 +95,7 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.guna2HtmlLabel23 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.guna2Panel10 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel13 = new Guna.UI2.WinForms.Guna2Panel();
+            this.chopQilishButton = new Guna.UI2.WinForms.Guna2Button();
             this.harbiyXizmatchiQidirish = new Guna.UI2.WinForms.Guna2Button();
             this.harbiyXzimatchiTozalash = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel12 = new Guna.UI2.WinForms.Guna2Panel();
@@ -111,7 +112,6 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.guna2HtmlLabel20 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.harbiyXizmatchiIdText = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel21 = new Guna.UI2.WinForms.Guna2HtmlLabel();
-            this.chopQilishButton = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.guna2TabControl1.SuspendLayout();
@@ -174,7 +174,7 @@ namespace HarbiyRoyxatgaOlish.Forms
             // 
             this.guna2PictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.guna2PictureBox1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.guna2PictureBox1.Image = global::HarbiyRoyxatgaOlish.Properties.Resources.mudofaaLogo;
+            this.guna2PictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("guna2PictureBox1.Image")));
             this.guna2PictureBox1.ImageRotate = 0F;
             this.guna2PictureBox1.Location = new System.Drawing.Point(0, 0);
             this.guna2PictureBox1.Name = "guna2PictureBox1";
@@ -251,7 +251,7 @@ namespace HarbiyRoyxatgaOlish.Forms
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.chaqiriluvchiFuqaroData.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle2;
-            this.chaqiriluvchiFuqaroData.ColumnHeadersHeight = 20;
+            this.chaqiriluvchiFuqaroData.ColumnHeadersHeight = 22;
             this.chaqiriluvchiFuqaroData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             this.chaqiriluvchiFuqaroData.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column3});
@@ -282,7 +282,7 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.chaqiriluvchiFuqaroData.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.chaqiriluvchiFuqaroData.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
             this.chaqiriluvchiFuqaroData.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.chaqiriluvchiFuqaroData.ThemeStyle.HeaderStyle.Height = 20;
+            this.chaqiriluvchiFuqaroData.ThemeStyle.HeaderStyle.Height = 22;
             this.chaqiriluvchiFuqaroData.ThemeStyle.ReadOnly = false;
             this.chaqiriluvchiFuqaroData.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
             this.chaqiriluvchiFuqaroData.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
@@ -342,7 +342,7 @@ namespace HarbiyRoyxatgaOlish.Forms
             dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.voyagaYetganFuqaroData.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle5;
-            this.voyagaYetganFuqaroData.ColumnHeadersHeight = 20;
+            this.voyagaYetganFuqaroData.ColumnHeadersHeight = 22;
             this.voyagaYetganFuqaroData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             this.voyagaYetganFuqaroData.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column1,
@@ -374,7 +374,7 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.voyagaYetganFuqaroData.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.voyagaYetganFuqaroData.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
             this.voyagaYetganFuqaroData.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.voyagaYetganFuqaroData.ThemeStyle.HeaderStyle.Height = 20;
+            this.voyagaYetganFuqaroData.ThemeStyle.HeaderStyle.Height = 22;
             this.voyagaYetganFuqaroData.ThemeStyle.ReadOnly = false;
             this.voyagaYetganFuqaroData.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
             this.voyagaYetganFuqaroData.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
@@ -466,7 +466,7 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.xabarTextFuqaro.PlaceholderText = "Xabar yuborish uchun ...";
             this.xabarTextFuqaro.SelectedText = "";
             this.xabarTextFuqaro.Size = new System.Drawing.Size(243, 70);
-            this.xabarTextFuqaro.TabIndex = 4;
+            this.xabarTextFuqaro.TabIndex = 0;
             // 
             // deleteButtonFuqaro
             // 
@@ -484,7 +484,7 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.deleteButtonFuqaro.Location = new System.Drawing.Point(3, 156);
             this.deleteButtonFuqaro.Name = "deleteButtonFuqaro";
             this.deleteButtonFuqaro.Size = new System.Drawing.Size(120, 30);
-            this.deleteButtonFuqaro.TabIndex = 0;
+            this.deleteButtonFuqaro.TabIndex = 3;
             this.deleteButtonFuqaro.Text = "O\'chirish";
             this.deleteButtonFuqaro.UseTransparentBackground = true;
             this.deleteButtonFuqaro.Click += new System.EventHandler(this.deleteButtonFuqaro_Click);
@@ -505,7 +505,7 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.sentButtonFuqaro.Location = new System.Drawing.Point(129, 120);
             this.sentButtonFuqaro.Name = "sentButtonFuqaro";
             this.sentButtonFuqaro.Size = new System.Drawing.Size(120, 30);
-            this.sentButtonFuqaro.TabIndex = 0;
+            this.sentButtonFuqaro.TabIndex = 5;
             this.sentButtonFuqaro.Text = "Yuborish";
             this.sentButtonFuqaro.UseTransparentBackground = true;
             this.sentButtonFuqaro.Click += new System.EventHandler(this.sentButtonFuqaro_Click);
@@ -526,7 +526,7 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.editButtonFuqaro.Location = new System.Drawing.Point(2, 120);
             this.editButtonFuqaro.Name = "editButtonFuqaro";
             this.editButtonFuqaro.Size = new System.Drawing.Size(120, 30);
-            this.editButtonFuqaro.TabIndex = 0;
+            this.editButtonFuqaro.TabIndex = 2;
             this.editButtonFuqaro.Text = "Tahrirlash";
             this.editButtonFuqaro.UseTransparentBackground = true;
             this.editButtonFuqaro.Click += new System.EventHandler(this.editButtonFuqaro_Click);
@@ -547,7 +547,7 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.searchButtonFuqaro.Location = new System.Drawing.Point(129, 156);
             this.searchButtonFuqaro.Name = "searchButtonFuqaro";
             this.searchButtonFuqaro.Size = new System.Drawing.Size(120, 30);
-            this.searchButtonFuqaro.TabIndex = 0;
+            this.searchButtonFuqaro.TabIndex = 4;
             this.searchButtonFuqaro.Text = "Qidirish";
             this.searchButtonFuqaro.UseTransparentBackground = true;
             this.searchButtonFuqaro.Click += new System.EventHandler(this.searchButtonFuqaro_Click);
@@ -567,7 +567,7 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.addButtonFuqaro.Location = new System.Drawing.Point(3, 82);
             this.addButtonFuqaro.Name = "addButtonFuqaro";
             this.addButtonFuqaro.Size = new System.Drawing.Size(120, 30);
-            this.addButtonFuqaro.TabIndex = 0;
+            this.addButtonFuqaro.TabIndex = 1;
             this.addButtonFuqaro.Text = "Qo\'shish";
             this.addButtonFuqaro.UseTransparentBackground = true;
             this.addButtonFuqaro.Click += new System.EventHandler(this.addButtonFuqaro_Click);
@@ -608,7 +608,7 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.xizmatJoyiComboFuqaro.Location = new System.Drawing.Point(85, 150);
             this.xizmatJoyiComboFuqaro.Name = "xizmatJoyiComboFuqaro";
             this.xizmatJoyiComboFuqaro.Size = new System.Drawing.Size(150, 22);
-            this.xizmatJoyiComboFuqaro.TabIndex = 16;
+            this.xizmatJoyiComboFuqaro.TabIndex = 5;
             // 
             // guna2HtmlLabel14
             // 
@@ -640,7 +640,7 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.kontraktComboFuqaro.Location = new System.Drawing.Point(85, 120);
             this.kontraktComboFuqaro.Name = "kontraktComboFuqaro";
             this.kontraktComboFuqaro.Size = new System.Drawing.Size(150, 22);
-            this.kontraktComboFuqaro.TabIndex = 14;
+            this.kontraktComboFuqaro.TabIndex = 4;
             // 
             // guna2HtmlLabel13
             // 
@@ -672,7 +672,7 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.xizmatTuriComboFuqaro.Location = new System.Drawing.Point(85, 90);
             this.xizmatTuriComboFuqaro.Name = "xizmatTuriComboFuqaro";
             this.xizmatTuriComboFuqaro.Size = new System.Drawing.Size(150, 22);
-            this.xizmatTuriComboFuqaro.TabIndex = 12;
+            this.xizmatTuriComboFuqaro.TabIndex = 3;
             this.xizmatTuriComboFuqaro.SelectedIndexChanged += new System.EventHandler(this.xizmatTuriComboFuqaro_SelectedIndexChanged);
             // 
             // tashxisComboFuqaro
@@ -693,7 +693,7 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.tashxisComboFuqaro.Location = new System.Drawing.Point(85, 60);
             this.tashxisComboFuqaro.Name = "tashxisComboFuqaro";
             this.tashxisComboFuqaro.Size = new System.Drawing.Size(150, 22);
-            this.tashxisComboFuqaro.TabIndex = 10;
+            this.tashxisComboFuqaro.TabIndex = 2;
             this.tashxisComboFuqaro.SelectedIndexChanged += new System.EventHandler(this.tashxisComboFuqaro_SelectedIndexChanged);
             // 
             // guna2HtmlLabel8
@@ -738,7 +738,7 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.vazniTextFuqaro.PlaceholderText = "";
             this.vazniTextFuqaro.SelectedText = "";
             this.vazniTextFuqaro.Size = new System.Drawing.Size(150, 20);
-            this.vazniTextFuqaro.TabIndex = 3;
+            this.vazniTextFuqaro.TabIndex = 1;
             // 
             // guna2HtmlLabel11
             // 
@@ -771,7 +771,7 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.boyiTextFuqaro.PlaceholderText = "";
             this.boyiTextFuqaro.SelectedText = "";
             this.boyiTextFuqaro.Size = new System.Drawing.Size(150, 20);
-            this.boyiTextFuqaro.TabIndex = 1;
+            this.boyiTextFuqaro.TabIndex = 0;
             // 
             // guna2HtmlLabel12
             // 
@@ -822,7 +822,7 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.yoshiTextFuqaro.PlaceholderText = "";
             this.yoshiTextFuqaro.SelectedText = "";
             this.yoshiTextFuqaro.Size = new System.Drawing.Size(150, 20);
-            this.yoshiTextFuqaro.TabIndex = 9;
+            this.yoshiTextFuqaro.TabIndex = 4;
             // 
             // guna2HtmlLabel7
             // 
@@ -855,7 +855,7 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.sharifTextFuqaro.PlaceholderText = "";
             this.sharifTextFuqaro.SelectedText = "";
             this.sharifTextFuqaro.Size = new System.Drawing.Size(150, 20);
-            this.sharifTextFuqaro.TabIndex = 7;
+            this.sharifTextFuqaro.TabIndex = 3;
             // 
             // guna2HtmlLabel6
             // 
@@ -888,7 +888,7 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.familyaTextFuqaro.PlaceholderText = "";
             this.familyaTextFuqaro.SelectedText = "";
             this.familyaTextFuqaro.Size = new System.Drawing.Size(150, 20);
-            this.familyaTextFuqaro.TabIndex = 5;
+            this.familyaTextFuqaro.TabIndex = 2;
             // 
             // guna2HtmlLabel5
             // 
@@ -921,7 +921,7 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.ismiTextFuqaro.PlaceholderText = "";
             this.ismiTextFuqaro.SelectedText = "";
             this.ismiTextFuqaro.Size = new System.Drawing.Size(150, 20);
-            this.ismiTextFuqaro.TabIndex = 3;
+            this.ismiTextFuqaro.TabIndex = 1;
             // 
             // guna2HtmlLabel4
             // 
@@ -954,7 +954,7 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.fuqaroIdTextFuqaro.PlaceholderText = "";
             this.fuqaroIdTextFuqaro.SelectedText = "";
             this.fuqaroIdTextFuqaro.Size = new System.Drawing.Size(150, 20);
-            this.fuqaroIdTextFuqaro.TabIndex = 1;
+            this.fuqaroIdTextFuqaro.TabIndex = 0;
             // 
             // guna2HtmlLabel3
             // 
@@ -993,7 +993,7 @@ namespace HarbiyRoyxatgaOlish.Forms
             dataGridViewCellStyle8.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle8.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
             this.harbiylarData.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle8;
-            this.harbiylarData.ColumnHeadersHeight = 20;
+            this.harbiylarData.ColumnHeadersHeight = 22;
             this.harbiylarData.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
             this.harbiylarData.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
             this.Column4});
@@ -1024,7 +1024,7 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.harbiylarData.ThemeStyle.HeaderStyle.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.harbiylarData.ThemeStyle.HeaderStyle.ForeColor = System.Drawing.Color.White;
             this.harbiylarData.ThemeStyle.HeaderStyle.HeaightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing;
-            this.harbiylarData.ThemeStyle.HeaderStyle.Height = 20;
+            this.harbiylarData.ThemeStyle.HeaderStyle.Height = 22;
             this.harbiylarData.ThemeStyle.ReadOnly = false;
             this.harbiylarData.ThemeStyle.RowsStyle.BackColor = System.Drawing.Color.White;
             this.harbiylarData.ThemeStyle.RowsStyle.BorderStyle = System.Windows.Forms.DataGridViewCellBorderStyle.SingleHorizontal;
@@ -1084,6 +1084,28 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.guna2Panel13.Size = new System.Drawing.Size(252, 283);
             this.guna2Panel13.TabIndex = 3;
             // 
+            // chopQilishButton
+            // 
+            this.chopQilishButton.Animated = true;
+            this.chopQilishButton.AutoRoundedCorners = true;
+            this.chopQilishButton.BackColor = System.Drawing.Color.Transparent;
+            this.chopQilishButton.BorderRadius = 14;
+            this.chopQilishButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.chopQilishButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.chopQilishButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.chopQilishButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.chopQilishButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.chopQilishButton.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold);
+            this.chopQilishButton.ForeColor = System.Drawing.Color.White;
+            this.chopQilishButton.IndicateFocus = true;
+            this.chopQilishButton.Location = new System.Drawing.Point(66, 88);
+            this.chopQilishButton.Name = "chopQilishButton";
+            this.chopQilishButton.Size = new System.Drawing.Size(120, 30);
+            this.chopQilishButton.TabIndex = 8;
+            this.chopQilishButton.Text = "Chop qilish";
+            this.chopQilishButton.UseTransparentBackground = true;
+            this.chopQilishButton.Click += new System.EventHandler(this.chopQilishButton_Click);
+            // 
             // harbiyXizmatchiQidirish
             // 
             this.harbiyXizmatchiQidirish.Animated = true;
@@ -1101,7 +1123,7 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.harbiyXizmatchiQidirish.Location = new System.Drawing.Point(66, 49);
             this.harbiyXizmatchiQidirish.Name = "harbiyXizmatchiQidirish";
             this.harbiyXizmatchiQidirish.Size = new System.Drawing.Size(120, 30);
-            this.harbiyXizmatchiQidirish.TabIndex = 1;
+            this.harbiyXizmatchiQidirish.TabIndex = 7;
             this.harbiyXizmatchiQidirish.Text = "Qidirish";
             this.harbiyXizmatchiQidirish.UseTransparentBackground = true;
             this.harbiyXizmatchiQidirish.Click += new System.EventHandler(this.harbiyXizmatchiQidirish_Click);
@@ -1123,7 +1145,7 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.harbiyXzimatchiTozalash.Location = new System.Drawing.Point(66, 9);
             this.harbiyXzimatchiTozalash.Name = "harbiyXzimatchiTozalash";
             this.harbiyXzimatchiTozalash.Size = new System.Drawing.Size(120, 30);
-            this.harbiyXzimatchiTozalash.TabIndex = 1;
+            this.harbiyXzimatchiTozalash.TabIndex = 6;
             this.harbiyXzimatchiTozalash.Text = "Tozalash";
             this.harbiyXzimatchiTozalash.UseTransparentBackground = true;
             this.harbiyXzimatchiTozalash.Click += new System.EventHandler(this.harbiyXzimatchiTozalash_Click);
@@ -1160,7 +1182,7 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.harbiyXizmatOtashJoyiText.PlaceholderText = "";
             this.harbiyXizmatOtashJoyiText.SelectedText = "";
             this.harbiyXizmatOtashJoyiText.Size = new System.Drawing.Size(220, 20);
-            this.harbiyXizmatOtashJoyiText.TabIndex = 16;
+            this.harbiyXizmatOtashJoyiText.TabIndex = 5;
             // 
             // harbiyUnvonText
             // 
@@ -1182,7 +1204,7 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.harbiyUnvonText.PlaceholderText = "";
             this.harbiyUnvonText.SelectedText = "";
             this.harbiyUnvonText.Size = new System.Drawing.Size(220, 20);
-            this.harbiyUnvonText.TabIndex = 15;
+            this.harbiyUnvonText.TabIndex = 4;
             // 
             // guna2HtmlLabel22
             // 
@@ -1242,7 +1264,7 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.harbiyXizmatchiSharifText.PlaceholderText = "";
             this.harbiyXizmatchiSharifText.SelectedText = "";
             this.harbiyXizmatchiSharifText.Size = new System.Drawing.Size(150, 20);
-            this.harbiyXizmatchiSharifText.TabIndex = 7;
+            this.harbiyXizmatchiSharifText.TabIndex = 3;
             // 
             // guna2HtmlLabel18
             // 
@@ -1275,7 +1297,7 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.harbiyXizmatchiFamilyaText.PlaceholderText = "";
             this.harbiyXizmatchiFamilyaText.SelectedText = "";
             this.harbiyXizmatchiFamilyaText.Size = new System.Drawing.Size(150, 20);
-            this.harbiyXizmatchiFamilyaText.TabIndex = 5;
+            this.harbiyXizmatchiFamilyaText.TabIndex = 2;
             // 
             // guna2HtmlLabel19
             // 
@@ -1308,7 +1330,7 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.harbiyXizmatchiIsmiText.PlaceholderText = "";
             this.harbiyXizmatchiIsmiText.SelectedText = "";
             this.harbiyXizmatchiIsmiText.Size = new System.Drawing.Size(150, 20);
-            this.harbiyXizmatchiIsmiText.TabIndex = 3;
+            this.harbiyXizmatchiIsmiText.TabIndex = 1;
             // 
             // guna2HtmlLabel20
             // 
@@ -1341,7 +1363,7 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.harbiyXizmatchiIdText.PlaceholderText = "";
             this.harbiyXizmatchiIdText.SelectedText = "";
             this.harbiyXizmatchiIdText.Size = new System.Drawing.Size(220, 20);
-            this.harbiyXizmatchiIdText.TabIndex = 1;
+            this.harbiyXizmatchiIdText.TabIndex = 0;
             // 
             // guna2HtmlLabel21
             // 
@@ -1353,28 +1375,6 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.guna2HtmlLabel21.Size = new System.Drawing.Size(130, 18);
             this.guna2HtmlLabel21.TabIndex = 0;
             this.guna2HtmlLabel21.Text = "Harbiy xizmatchi id";
-            // 
-            // chopQilishButton
-            // 
-            this.chopQilishButton.Animated = true;
-            this.chopQilishButton.AutoRoundedCorners = true;
-            this.chopQilishButton.BackColor = System.Drawing.Color.Transparent;
-            this.chopQilishButton.BorderRadius = 14;
-            this.chopQilishButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
-            this.chopQilishButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
-            this.chopQilishButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
-            this.chopQilishButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
-            this.chopQilishButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
-            this.chopQilishButton.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold);
-            this.chopQilishButton.ForeColor = System.Drawing.Color.White;
-            this.chopQilishButton.IndicateFocus = true;
-            this.chopQilishButton.Location = new System.Drawing.Point(66, 88);
-            this.chopQilishButton.Name = "chopQilishButton";
-            this.chopQilishButton.Size = new System.Drawing.Size(120, 30);
-            this.chopQilishButton.TabIndex = 2;
-            this.chopQilishButton.Text = "Chop qilish";
-            this.chopQilishButton.UseTransparentBackground = true;
-            this.chopQilishButton.Click += new System.EventHandler(this.chopQilishButton_Click);
             // 
             // HarbiyRoyxatgaOlish
             // 

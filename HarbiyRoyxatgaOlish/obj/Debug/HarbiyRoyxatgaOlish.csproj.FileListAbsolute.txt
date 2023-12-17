@@ -15,3 +15,4 @@ C:\Users\Abdussomad\source\repos\HarbiyRoyxatgaOlish\HarbiyRoyxatgaOlish\obj\Deb
 C:\Users\Abdussomad\source\repos\HarbiyRoyxatgaOlish\HarbiyRoyxatgaOlish\bin\Debug\BouncyCastle.Crypto.dll
 C:\Users\Abdussomad\source\repos\HarbiyRoyxatgaOlish\HarbiyRoyxatgaOlish\bin\Debug\itextsharp.dll
 C:\Users\Abdussomad\source\repos\HarbiyRoyxatgaOlish\HarbiyRoyxatgaOlish\bin\Debug\itextsharp.xml
+C:\Users\Abdussomad\source\repos\HarbiyRoyxatgaOlish\HarbiyRoyxatgaOlish\bin\Debug\HarbiyRoyxatDB.mdf
