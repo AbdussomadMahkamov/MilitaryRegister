@@ -111,6 +111,7 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.guna2HtmlLabel20 = new Guna.UI2.WinForms.Guna2HtmlLabel();
             this.harbiyXizmatchiIdText = new Guna.UI2.WinForms.Guna2TextBox();
             this.guna2HtmlLabel21 = new Guna.UI2.WinForms.Guna2HtmlLabel();
+            this.chopQilishButton = new Guna.UI2.WinForms.Guna2Button();
             this.guna2Panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
             this.guna2TabControl1.SuspendLayout();
@@ -1074,6 +1075,7 @@ namespace HarbiyRoyxatgaOlish.Forms
             // 
             // guna2Panel13
             // 
+            this.guna2Panel13.Controls.Add(this.chopQilishButton);
             this.guna2Panel13.Controls.Add(this.harbiyXizmatchiQidirish);
             this.guna2Panel13.Controls.Add(this.harbiyXzimatchiTozalash);
             this.guna2Panel13.Dock = System.Windows.Forms.DockStyle.Fill;
@@ -1352,6 +1354,28 @@ namespace HarbiyRoyxatgaOlish.Forms
             this.guna2HtmlLabel21.TabIndex = 0;
             this.guna2HtmlLabel21.Text = "Harbiy xizmatchi id";
             // 
+            // chopQilishButton
+            // 
+            this.chopQilishButton.Animated = true;
+            this.chopQilishButton.AutoRoundedCorners = true;
+            this.chopQilishButton.BackColor = System.Drawing.Color.Transparent;
+            this.chopQilishButton.BorderRadius = 14;
+            this.chopQilishButton.DisabledState.BorderColor = System.Drawing.Color.DarkGray;
+            this.chopQilishButton.DisabledState.CustomBorderColor = System.Drawing.Color.DarkGray;
+            this.chopQilishButton.DisabledState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(169)))), ((int)(((byte)(169)))), ((int)(((byte)(169)))));
+            this.chopQilishButton.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(141)))), ((int)(((byte)(141)))), ((int)(((byte)(141)))));
+            this.chopQilishButton.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(0)))), ((int)(((byte)(192)))));
+            this.chopQilishButton.Font = new System.Drawing.Font("Century Gothic", 9.75F, System.Drawing.FontStyle.Bold);
+            this.chopQilishButton.ForeColor = System.Drawing.Color.White;
+            this.chopQilishButton.IndicateFocus = true;
+            this.chopQilishButton.Location = new System.Drawing.Point(66, 88);
+            this.chopQilishButton.Name = "chopQilishButton";
+            this.chopQilishButton.Size = new System.Drawing.Size(120, 30);
+            this.chopQilishButton.TabIndex = 2;
+            this.chopQilishButton.Text = "Chop qilish";
+            this.chopQilishButton.UseTransparentBackground = true;
+            this.chopQilishButton.Click += new System.EventHandler(this.chopQilishButton_Click);
+            // 
             // HarbiyRoyxatgaOlish
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -1474,5 +1498,6 @@ namespace HarbiyRoyxatgaOlish.Forms
         private Guna.UI2.WinForms.Guna2TextBox harbiyXizmatOtashJoyiText;
         private Guna.UI2.WinForms.Guna2TextBox harbiyUnvonText;
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
+        private Guna.UI2.WinForms.Guna2Button chopQilishButton;
     }
 }

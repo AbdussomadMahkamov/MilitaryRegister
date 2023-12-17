@@ -16,9 +16,9 @@ namespace HarbiyRoyxatgaOlish
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Forms.HarbiyRoyxatgaOlish());
+            //Application.Run(new Forms.HarbiyRoyxatgaOlish());
             //Application.Run(new Forms.QoshimchaMalumotlar());
-            //Application.Run(new Form1());
+            Application.Run(new Form1());
         }
     }
 }

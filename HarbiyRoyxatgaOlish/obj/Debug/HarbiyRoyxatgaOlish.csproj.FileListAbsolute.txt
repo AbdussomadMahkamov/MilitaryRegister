@@ -12,3 +12,6 @@ C:\Users\Abdussomad\source\repos\HarbiyRoyxatgaOlish\HarbiyRoyxatgaOlish\bin\Deb
 C:\Users\Abdussomad\source\repos\HarbiyRoyxatgaOlish\HarbiyRoyxatgaOlish\obj\Debug\HarbiyRoyxatgaOlish.csproj.CopyComplete
 C:\Users\Abdussomad\source\repos\HarbiyRoyxatgaOlish\HarbiyRoyxatgaOlish\obj\Debug\HarbiyRoyxatgaOlish.Forms.QoshimchaMalumotlar.resources
 C:\Users\Abdussomad\source\repos\HarbiyRoyxatgaOlish\HarbiyRoyxatgaOlish\obj\Debug\HarbiyRoyxatgaOlish.Forms.HarbiyRoyxatgaOlish.resources
+C:\Users\Abdussomad\source\repos\HarbiyRoyxatgaOlish\HarbiyRoyxatgaOlish\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Abdussomad\source\repos\HarbiyRoyxatgaOlish\HarbiyRoyxatgaOlish\bin\Debug\itextsharp.dll
+C:\Users\Abdussomad\source\repos\HarbiyRoyxatgaOlish\HarbiyRoyxatgaOlish\bin\Debug\itextsharp.xml
