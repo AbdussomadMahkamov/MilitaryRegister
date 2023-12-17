@@ -4,6 +4,8 @@ using System.ComponentModel;
 using System.Data;
 using System.Drawing;
 using System.Linq;
+using System.Net;
+using System.Net.Mail;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -31,18 +33,31 @@ namespace HarbiyRoyxatgaOlish.Forms
                     Query = "Select * From Chaqirilganlar";
                     chaqiriluvchiFuqaroData.DataSource = Con.GetData(Query);
                     break;
+                case "Xarbiylar":
+                    Query = "Select * From Chaqirilganlar";
+                    harbiylarData.DataSource = Con.GetData(Query);
+                    Unvoni();
+                    break;
                 default: break;
             }
         }
         DataTable dtable = new DataTable();
+        DataTable dtable2 = new DataTable();
         public void XizmatJoyi()
         {
             string Query = "select * from XizmatJoyi";
             xizmatJoyiComboFuqaro.DisplayMember = Con.GetData(Query).Columns["JoyNomi"].ToString();
             xizmatJoyiComboFuqaro.ValueMember = Con.GetData(Query).Columns["Id"].ToString();
             xizmatJoyiComboFuqaro.DataSource = Con.GetData(Query);
-            
             dtable = Con.GetData(Query);
+        }
+        public void Unvoni()
+        {
+            string Query = "select * from Unvon";
+            xizmatJoyiComboFuqaro.DisplayMember = Con.GetData(Query).Columns["Nomi"].ToString();
+            xizmatJoyiComboFuqaro.ValueMember = Con.GetData(Query).Columns["Id"].ToString();
+            xizmatJoyiComboFuqaro.DataSource = Con.GetData(Query);
+            dtable2 = Con.GetData(Query);
         }
 
         private void guna2TabControl1_SelectedIndexChanged(object sender, EventArgs e)
@@ -52,8 +67,14 @@ namespace HarbiyRoyxatgaOlish.Forms
                 ShowTable("Fuqaro");
                 XizmatJoyi();
             }
+            if (guna2TabControl1.SelectedTab == chaqirilganTab)
+            {
+                ShowTable("Xarbiylar");
+                XizmatJoyi();
+            }
         }
         int KeyFuqaro=0;
+        int KeyChaqiriluvchi = 0;
         string KeyMessage = "";
         private void voyagaYetganFuqaroData_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
@@ -85,20 +106,27 @@ namespace HarbiyRoyxatgaOlish.Forms
         {
             try
             {
-
+                fuqaroIdTextFuqaro.Text = chaqiriluvchiFuqaroData.SelectedRows[0].Cells[1].Value.ToString();
+                ismiTextFuqaro.Text = chaqiriluvchiFuqaroData.SelectedRows[0].Cells[2].Value.ToString();
+                familyaTextFuqaro.Text = chaqiriluvchiFuqaroData.SelectedRows[0].Cells[3].Value.ToString();
+                sharifTextFuqaro.Text = chaqiriluvchiFuqaroData.SelectedRows[0].Cells[4].Value.ToString();
+                yoshiTextFuqaro.Text = chaqiriluvchiFuqaroData.SelectedRows[0].Cells[5].Value.ToString();
+                boyiTextFuqaro.Text = chaqiriluvchiFuqaroData.SelectedRows[0].Cells[6].Value.ToString();
+                vazniTextFuqaro.Text = chaqiriluvchiFuqaroData.SelectedRows[0].Cells[7].Value.ToString();
+                tashxisComboFuqaro.SelectedIndex = chaqiriluvchiFuqaroData.SelectedRows[0].Cells[8].Value.ToString() == "Soglom" ? 0 : 1;
+                xizmatTuriComboFuqaro.SelectedIndex = chaqiriluvchiFuqaroData.SelectedRows[0].Cells[8].Value.ToString() == "Soglom" ?
+                    chaqiriluvchiFuqaroData.SelectedRows[0].Cells[9].Value.ToString() == "Bir yillik" ?  0 : 1 : 0;
+                kontraktComboFuqaro.SelectedIndex = chaqiriluvchiFuqaroData.SelectedRows[0].Cells[10].Value.ToString() == "Tolandi" ? 0 : 1;
                 if (fuqaroIdTextFuqaro.Text == "")
                 {
-                    KeyFuqaro = 0;
+                    KeyChaqiriluvchi = 0;
                 }
                 else
                 {
-                    KeyFuqaro = Convert.ToInt32(voyagaYetganFuqaroData.SelectedRows[0].Cells[0].Value.ToString());
-                    //fuqaroIdTextFuqaro.Text = voyagaYetganFuqaroData.SelectedRows[0].Cells[0].Value.ToString();
-                    //ismiTextFuqaro.Text = voyagaYetganFuqaroData.SelectedRows[0].Cells[1].Value.ToString();
-                    //familyaTextFuqaro.Text = voyagaYetganFuqaroData.SelectedRows[0].Cells[2].Value.ToString();
-                    //sharifTextFuqaro.Text = voyagaYetganFuqaroData.SelectedRows[0].Cells[3].Value.ToString();
-                    //yoshiTextFuqaro.Text = voyagaYetganFuqaroData.SelectedRows[0].Cells[4].Value.ToString();
-                    //KeyMessage = voyagaYetganFuqaroData.SelectedRows[0].Cells[5].Value.ToString();
+                    KeyChaqiriluvchi = Convert.ToInt32(chaqiriluvchiFuqaroData.SelectedRows[0].Cells[0].Value.ToString());
+                    //KeyFuqaro = Convert.ToInt32(voyagaYetganFuqaroData.SelectedRows[0].Cells[1].Value.ToString());
+
+
                 }
             }
             catch (Exception ex)
@@ -216,10 +244,223 @@ namespace HarbiyRoyxatgaOlish.Forms
 
         private void editButtonFuqaro_Click(object sender, EventArgs e)
         {
-            //int son = Convert.ToInt32(xizmatJoyiComboFuqaro.SelectedIndex.ToString());
-            //chaqiriluvchiFuqaroData.DataSource = dtable;
-            //ismiTextFuqaro.Text = dtable.Rows[son][1].ToString();
-            MessageBox.Show(xizmatJoyiComboFuqaro.SelectedIndex.ToString());
+            try
+            {
+                if (
+                    fuqaroIdTextFuqaro.Text == "" ||
+                    ismiTextFuqaro.Text == "" ||
+                    familyaTextFuqaro.Text == "" ||
+                    sharifTextFuqaro.Text == "" ||
+                    yoshiTextFuqaro.Text == "" ||
+                    boyiTextFuqaro.Text == "" ||
+                    vazniTextFuqaro.Text == "" ||
+                    tashxisComboFuqaro.SelectedIndex == -1
+                    )
+                {
+                    MessageBox.Show("Iltimos maydonni ma'lumot bilan to'ldiring", "Bildirishnoma");
+                }
+                else
+                {
+                    int son = Convert.ToInt32(xizmatJoyiComboFuqaro.SelectedIndex.ToString());
+                    string joy = xizmatJoyiComboFuqaro.Enabled ? dtable.Rows[son][1].ToString() : " ";
+                    //MessageBox.Show(
+                    //        boyiTextFuqaro.Text+"\n"+
+                    //        vazniTextFuqaro.Text + "\n" +
+                    //        tashxisComboFuqaro.SelectedItem.ToString() + "\n" +
+                    //        xizmatTuriComboFuqaro.SelectedItem.ToString() + "\n" +
+                    //        kontraktComboFuqaro.SelectedItem.ToString() + "\n" +
+                    //        joy + "\n" +
+                    //        KeyChaqiriluvchi.ToString()
+                    //                   );
+                        string Query = "update Chaqirilganlar set Boyi='{0}', Vazni='{1}', Tashxis='{2}', XizmatTuri='{3}', Kontrakt='{4}', XizmatJoyi='{5}' where Id='{6}'";
+                        Query = string.Format(Query,
+                            boyiTextFuqaro.Text,
+                            vazniTextFuqaro.Text,
+                            tashxisComboFuqaro.SelectedItem.ToString(),
+                            xizmatTuriComboFuqaro.Enabled ? xizmatTuriComboFuqaro.SelectedItem.ToString() : " ",
+                            kontraktComboFuqaro.Enabled ? kontraktComboFuqaro.SelectedItem.ToString() : " ",
+                            joy,
+                            KeyChaqiriluvchi.ToString()
+                            );
+                        Con.SetData(Query);
+                        ShowTable("Fuqaro");
+                        MessageBox.Show("Ma'lumotlar muvoffaqiyatli tahrirlandi", "Bildirishnoma");
+                        KeyFuqaro = 0;
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Bildirishnoma", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void deleteButtonFuqaro_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (
+                    fuqaroIdTextFuqaro.Text == "" ||
+                    ismiTextFuqaro.Text == "" ||
+                    familyaTextFuqaro.Text == "" ||
+                    sharifTextFuqaro.Text == "" ||
+                    yoshiTextFuqaro.Text == "" ||
+                    boyiTextFuqaro.Text == "" ||
+                    vazniTextFuqaro.Text == "" ||
+                    tashxisComboFuqaro.SelectedIndex == -1
+                    )
+                {
+                    MessageBox.Show("Iltimos maydonni ma'lumot bilan to'ldiring", "Bildirishnoma");
+                }
+                else
+                {
+                    string Query = "delete from Chaqirilganlar where Id='{0}'";
+                    Query = string.Format(Query, KeyChaqiriluvchi);
+                    Con.SetData(Query);
+                    ShowTable("Fuqaro");
+                    MessageBox.Show("Ma'lumotlar muvoffaqiyatli o'chirildi", "Bildirishnoma");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Bildirishnoma", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
+        }
+
+        private void searchButtonFuqaro_Click(object sender, EventArgs e)
+        {
+            string Query = "Select * From Chaqirilganlar where FuqaroId='{0}'";
+            Query = string.Format(Query, fuqaroIdTextFuqaro.Text);
+            chaqiriluvchiFuqaroData.DataSource = Con.GetData(Query);
+        }
+
+        private void sentButtonFuqaro_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                MailMessage xabar = new MailMessage("mahkamovabdussomad@gmail.com", KeyMessage);
+                xabar.Subject = "Harbiy xizmat uchun chaqiruv";
+                xabar.Body = xabarTextFuqaro.Text;
+                SmtpClient smtp = new SmtpClient();
+                smtp.Host = "smtp.gmail.com";
+                smtp.Port = 587;
+                System.Net.NetworkCredential network = new NetworkCredential("mahkamovabdussomad@gmail.com", "pfhu xzvt ictg hlar");
+                smtp.Credentials = network;
+                smtp.EnableSsl = true;
+                smtp.Send(xabar);
+                MessageBox.Show("Xabar yuborildi", "Bildirishnoma");
+                fuqaroIdTextFuqaro.Text = "";
+                ismiTextFuqaro.Text = "";
+                familyaTextFuqaro.Text = "";
+                sharifTextFuqaro.Text = "";
+                yoshiTextFuqaro.Text = "";
+                boyiTextFuqaro.Text = "";
+                vazniTextFuqaro.Text = "";
+                KeyMessage = "";
+                KeyFuqaro = 0;
+                KeyChaqiriluvchi = 0;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Bildirishnoma");
+            }
+        }
+
+        private void harbiyXizmatchiQidirish_Click(object sender, EventArgs e)
+        {
+            if(harbiyXizmatchiIdText.Text != "" && 
+                harbiyXizmatchiIsmiText.Text == "" &&
+                harbiyXizmatchiFamilyaText.Text == "" &&
+                harbiyXizmatchiSharifText.Text == "" &&
+                harbiyUnvonText.Text == "" &&
+                harbiyXizmatOtashJoyiText.Text == ""
+                )
+            {
+                string Query = "Select * From Chaqirilganlar where FuqaroId='{0}'";
+                Query = string.Format(Query, fuqaroIdTextFuqaro.Text);
+                harbiylarData.DataSource = Con.GetData(Query);
+            }
+            if(
+                harbiyXizmatchiIdText.Text == "" &&
+                harbiyXizmatchiIsmiText.Text != "" &&
+                harbiyXizmatchiFamilyaText.Text == "" &&
+                harbiyXizmatchiSharifText.Text == "" &&
+                harbiyUnvonText.Text == "" &&
+                harbiyXizmatOtashJoyiText.Text == ""
+                )
+            {
+                string Query = "Select * From Chaqirilganlar where Ism like '{0}%'";
+                Query = string.Format(Query, harbiyXizmatchiIsmiText.Text);
+                harbiylarData.DataSource = Con.GetData(Query);
+            }
+            if(
+                harbiyXizmatchiIdText.Text == "" &&
+                harbiyXizmatchiIsmiText.Text == "" &&
+                harbiyXizmatchiFamilyaText.Text != "" &&
+                harbiyXizmatchiSharifText.Text == "" &&
+                harbiyUnvonText.Text == "" &&
+                harbiyXizmatOtashJoyiText.Text == ""
+                )
+            {
+                string Query = "Select * From Chaqirilganlar where Familya like '{0}%'";
+                Query = string.Format(Query, harbiyXizmatchiFamilyaText.Text);
+                harbiylarData.DataSource = Con.GetData(Query);
+            }
+            if (
+                harbiyXizmatchiIdText.Text == "" &&
+                harbiyXizmatchiIsmiText.Text == "" &&
+                harbiyXizmatchiFamilyaText.Text == "" &&
+                harbiyXizmatchiSharifText.Text != "" &&
+                harbiyUnvonText.Text == "" &&
+                harbiyXizmatOtashJoyiText.Text == ""
+                )
+            {
+                string Query = "Select * From Chaqirilganlar where Sharif like '{0}%'";
+                Query = string.Format(Query, harbiyXizmatchiSharifText.Text);
+                harbiylarData.DataSource = Con.GetData(Query);
+            }
+            if (
+                harbiyXizmatchiIdText.Text == "" &&
+                harbiyXizmatchiIsmiText.Text == "" &&
+                harbiyXizmatchiFamilyaText.Text == "" &&
+                harbiyXizmatchiSharifText.Text == "" &&
+                harbiyUnvonText.Text == "" &&
+                harbiyXizmatOtashJoyiText.Text != ""
+                )
+            {
+                string Query = "Select * From Chaqirilganlar where XizmatJoyi like '{0}%'";
+                Query = string.Format(Query, harbiyXizmatOtashJoyiText.Text);
+                harbiylarData.DataSource = Con.GetData(Query);
+            }
+
+        }
+
+        private void harbiyXzimatchiTozalash_Click(object sender, EventArgs e)
+        {
+            harbiyXizmatchiIdText.Text = "";
+            harbiyXizmatchiIsmiText.Text = "";
+            harbiyXizmatchiFamilyaText.Text = "";
+            harbiyXizmatchiSharifText.Text = "";
+            harbiyUnvonText.Text = "";
+            harbiyXizmatOtashJoyiText.Text = "";
+        }
+
+        private void harbiylarData_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            try
+            {
+                harbiyXizmatchiIdText.Text = harbiylarData.SelectedRows[0].Cells[0].Value.ToString();
+                harbiyXizmatchiIsmiText.Text = harbiylarData.SelectedRows[0].Cells[2].Value.ToString();
+                harbiyXizmatchiFamilyaText.Text = harbiylarData.SelectedRows[0].Cells[3].Value.ToString();
+                harbiyXizmatchiSharifText.Text = harbiylarData.SelectedRows[0].Cells[4].Value.ToString();
+                harbiyUnvonText.Text = harbiylarData.SelectedRows[0].Cells[12].Value.ToString();
+                harbiyXizmatOtashJoyiText.Text = harbiylarData.SelectedRows[0].Cells[11].Value.ToString();
+
+            }
+            catch (Exception ex)
+            {
+
+                MessageBox.Show(ex.Message, "Bildirishnoma", MessageBoxButtons.OK, MessageBoxIcon.Error);
+            }
         }
     }
 }
