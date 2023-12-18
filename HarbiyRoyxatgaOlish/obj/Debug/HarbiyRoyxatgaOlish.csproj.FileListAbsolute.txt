@@ -16,3 +16,4 @@ C:\Users\Abdussomad\source\repos\HarbiyRoyxatgaOlish\HarbiyRoyxatgaOlish\bin\Deb
 C:\Users\Abdussomad\source\repos\HarbiyRoyxatgaOlish\HarbiyRoyxatgaOlish\bin\Debug\itextsharp.dll
 C:\Users\Abdussomad\source\repos\HarbiyRoyxatgaOlish\HarbiyRoyxatgaOlish\bin\Debug\itextsharp.xml
 C:\Users\Abdussomad\source\repos\HarbiyRoyxatgaOlish\HarbiyRoyxatgaOlish\bin\Debug\HarbiyRoyxatDB.mdf
+C:\Users\Abdussomad\source\repos\HarbiyRoyxatgaOlish\HarbiyRoyxatgaOlish\bin\Debug\HarbiyRoyxatDB_log.ldf

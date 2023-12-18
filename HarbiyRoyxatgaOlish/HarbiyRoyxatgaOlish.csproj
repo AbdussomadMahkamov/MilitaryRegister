@@ -123,6 +123,10 @@
     <Content Include="HarbiyRoyxatDB.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+    <Content Include="HarbiyRoyxatDB_log.ldf">
+      <DependentUpon>HarbiyRoyxatDB.mdf</DependentUpon>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <Content Include="Img\adminIcon.ico" />
     <Content Include="Img\generalIcon.ico" />
     <Content Include="Img\mudofaaLogo.png" />
