@@ -107,17 +107,17 @@ insert into Users values
 (4, 'shahnoz', '123', 'Admin');
 
 --VoyagaYetgan jadvali--
-CREATE TABLE [dbo].[VoyagaYetgan] (
-    [Id]       INT          IDENTITY (1, 1) NOT NULL,
-    [FuqaroId] INT          NOT NULL,
-    [Ism]      VARCHAR (50) NOT NULL,
-    [Familya]  VARCHAR (50) NOT NULL,
-    [Sharif]   VARCHAR (50) NOT NULL,
-    [Yosh]     INT          NOT NULL,
-    [Epochta]  VARCHAR (50) NOT NULL,
-    PRIMARY KEY CLUSTERED ([Id] ASC),
-    CONSTRAINT [FKV] FOREIGN KEY ([FuqaroId]) REFERENCES [dbo].[Fuqarolar] ([Id]) ON DELETE CASCADE
-);
+--CREATE TABLE [dbo].[VoyagaYetgan] (
+--    [Id]       INT          IDENTITY (1, 1) NOT NULL,
+--    [FuqaroId] INT          NOT NULL,
+--    [Ism]      VARCHAR (50) NOT NULL,
+--    [Familya]  VARCHAR (50) NOT NULL,
+--    [Sharif]   VARCHAR (50) NOT NULL,
+--    [Yosh]     INT          NOT NULL,
+--    [Epochta]  VARCHAR (50) NOT NULL,
+--    PRIMARY KEY CLUSTERED ([Id] ASC),
+--    CONSTRAINT [FKV] FOREIGN KEY ([FuqaroId]) REFERENCES [dbo].[Fuqarolar] ([Id]) ON DELETE CASCADE
+--);
 
 --Chaqirilganlar jadvali--
 CREATE TABLE [dbo].[Chaqirilganlar] (
@@ -144,6 +144,13 @@ CREATE TABLE [dbo].[XizmatJoyi] (
     [Manzil]  VARCHAR (50) NOT NULL,
     PRIMARY KEY CLUSTERED ([Id] ASC)
 );
+
+---Xizmat joyi jadvaliga ma'lumot yozish---
+insert into XizmatJoyi values
+('Samarqand 526-SCHR', 'Samarqand viloyati Samarqand shahar'),
+('Toshkent 101-SCHR', 'Toshkent viloyati Chirchiq tuman'),
+('Buxoro 456-SCHR', 'Buxoro viloyati Olot tuman');
+
 
 --YuborilganXabarlar jadvali--
 CREATE TABLE [dbo].[YuborilganXabarlar] (
