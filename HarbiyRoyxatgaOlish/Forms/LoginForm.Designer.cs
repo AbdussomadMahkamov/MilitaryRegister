@@ -62,7 +62,7 @@ namespace HarbiyRoyxatgaOlish
             this.loginText.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.loginText.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.loginText.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.loginText.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.loginText.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.loginText.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.loginText.Location = new System.Drawing.Point(383, 171);
             this.loginText.Name = "loginText";
@@ -82,11 +82,11 @@ namespace HarbiyRoyxatgaOlish
             this.parolText.DisabledState.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.parolText.DisabledState.PlaceholderForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(138)))), ((int)(((byte)(138)))), ((int)(((byte)(138)))));
             this.parolText.FocusedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
-            this.parolText.Font = new System.Drawing.Font("Segoe UI", 9F);
+            this.parolText.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
             this.parolText.HoverState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(94)))), ((int)(((byte)(148)))), ((int)(((byte)(255)))));
             this.parolText.Location = new System.Drawing.Point(383, 233);
             this.parolText.Name = "parolText";
-            this.parolText.PasswordChar = '\0';
+            this.parolText.PasswordChar = '*';
             this.parolText.PlaceholderText = "Parol . . .";
             this.parolText.SelectedText = "";
             this.parolText.Size = new System.Drawing.Size(200, 36);

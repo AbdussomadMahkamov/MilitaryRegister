@@ -18,7 +18,6 @@ namespace HarbiyRoyxatgaOlish
         public Functions()
         {
             ConStr = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\HarbiyRoyxatDB.mdf;Integrated Security=True;Connect Timeout=30";
-            //ConStr = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Abdussomad\source\repos\HarbiyRoyxatgaOlish\HarbiyRoyxatgaOlish\HarbiyRoyxatDB.mdf;Integrated Security=True;Connect Timeout=30";
             Con = new SqlConnection(ConStr);
             Cmd = new SqlCommand();
             Cmd.Connection = Con;
@@ -28,7 +27,6 @@ namespace HarbiyRoyxatgaOlish
             dt = new DataTable();
             sda = new SqlDataAdapter(Query, ConStr);
             sda.Fill(dt);
-            //Con.Close();
             return dt;
         }
         public int SetData(string Query)
@@ -40,7 +38,6 @@ namespace HarbiyRoyxatgaOlish
             }
             Cmd.CommandText = Query;
             cnt = Cmd.ExecuteNonQuery();
-            //Con.Close();
             return cnt;
         }
         

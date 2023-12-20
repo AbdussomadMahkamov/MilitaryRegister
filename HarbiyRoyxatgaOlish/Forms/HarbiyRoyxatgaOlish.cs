@@ -23,6 +23,7 @@ namespace HarbiyRoyxatgaOlish.Forms
             InitializeComponent();
             Con = new Functions();
             ShowTable("Fuqaro");
+            ShowTable("YuborilganXabar");
             XizmatJoyi();
         }
         public void ShowTable(string JadvalNomi)
@@ -39,7 +40,10 @@ namespace HarbiyRoyxatgaOlish.Forms
                 case "Xarbiylar":
                     Query = "Select * From Chaqirilganlar";
                     harbiylarData.DataSource = Con.GetData(Query);
-                    //Unvoni();
+                    break;
+                case "YuborilganXabar":
+                    Query = "Select * From YuborilganXabarlar";
+                    yuborilganXabarlarData.DataSource = Con.GetData(Query);
                     break;
                 default: break;
             }
@@ -54,14 +58,6 @@ namespace HarbiyRoyxatgaOlish.Forms
             xizmatJoyiComboFuqaro.DataSource = Con.GetData(Query);
             dtable = Con.GetData(Query);
         }
-        //public void Unvoni()
-        //{
-        //    string Query = "select * from Unvon";
-        //    xizmatJoyiComboFuqaro.DisplayMember = Con.GetData(Query).Columns["Nomi"].ToString();
-        //    xizmatJoyiComboFuqaro.ValueMember = Con.GetData(Query).Columns["Id"].ToString();
-        //    xizmatJoyiComboFuqaro.DataSource = Con.GetData(Query);
-        //    dtable2 = Con.GetData(Query);
-        //}
 
         private void guna2TabControl1_SelectedIndexChanged(object sender, EventArgs e)
         {
@@ -75,18 +71,25 @@ namespace HarbiyRoyxatgaOlish.Forms
                 ShowTable("Xarbiylar");
                 XizmatJoyi();
             }
+            if (guna2TabControl1.SelectedTab == yuborilganXabarTab)
+            {
+                ShowTable("YuborilganXabar");
+            }
         }
         int KeyFuqaro=0;
         int KeyChaqiriluvchi = 0;
         string KeyMessage = "";
+        string KeyIsm = "";
+        string KeyFamilya = "";
+        string KeySharif = "";
         private void voyagaYetganFuqaroData_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             try
             {
                 fuqaroIdTextFuqaro.Text = voyagaYetganFuqaroData.SelectedRows[0].Cells[0].Value.ToString();
-                ismiTextFuqaro.Text = voyagaYetganFuqaroData.SelectedRows[0].Cells[1].Value.ToString();
-                familyaTextFuqaro.Text = voyagaYetganFuqaroData.SelectedRows[0].Cells[2].Value.ToString();
-                sharifTextFuqaro.Text = voyagaYetganFuqaroData.SelectedRows[0].Cells[3].Value.ToString();
+                KeyIsm = ismiTextFuqaro.Text = voyagaYetganFuqaroData.SelectedRows[0].Cells[1].Value.ToString();
+                KeyFamilya = familyaTextFuqaro.Text = voyagaYetganFuqaroData.SelectedRows[0].Cells[2].Value.ToString();
+                KeySharif = sharifTextFuqaro.Text = voyagaYetganFuqaroData.SelectedRows[0].Cells[3].Value.ToString();
                 yoshiTextFuqaro.Text = voyagaYetganFuqaroData.SelectedRows[0].Cells[4].Value.ToString();
                 KeyMessage = voyagaYetganFuqaroData.SelectedRows[0].Cells[5].Value.ToString();
                 if (fuqaroIdTextFuqaro.Text == "")
@@ -118,7 +121,7 @@ namespace HarbiyRoyxatgaOlish.Forms
                 vazniTextFuqaro.Text = chaqiriluvchiFuqaroData.SelectedRows[0].Cells[7].Value.ToString();
                 tashxisComboFuqaro.SelectedIndex = chaqiriluvchiFuqaroData.SelectedRows[0].Cells[8].Value.ToString() == "Soglom" ? 0 : 1;
                 xizmatTuriComboFuqaro.SelectedIndex = chaqiriluvchiFuqaroData.SelectedRows[0].Cells[8].Value.ToString() == "Soglom" ?
-                    chaqiriluvchiFuqaroData.SelectedRows[0].Cells[9].Value.ToString() == "Bir yillik" ?  0 : 1 : 0;
+                chaqiriluvchiFuqaroData.SelectedRows[0].Cells[9].Value.ToString() == "Bir yillik" ?  0 : 1 : 0;
                 kontraktComboFuqaro.SelectedIndex = chaqiriluvchiFuqaroData.SelectedRows[0].Cells[10].Value.ToString() == "Tolandi" ? 0 : 1;
                 if (fuqaroIdTextFuqaro.Text == "")
                 {
@@ -127,7 +130,6 @@ namespace HarbiyRoyxatgaOlish.Forms
                 else
                 {
                     KeyChaqiriluvchi = Convert.ToInt32(chaqiriluvchiFuqaroData.SelectedRows[0].Cells[0].Value.ToString());
-                    //KeyFuqaro = Convert.ToInt32(voyagaYetganFuqaroData.SelectedRows[0].Cells[1].Value.ToString());
 
 
                 }
@@ -151,10 +153,6 @@ namespace HarbiyRoyxatgaOlish.Forms
                     boyiTextFuqaro.Text == "" ||
                     vazniTextFuqaro.Text == "" ||
                     tashxisComboFuqaro.SelectedIndex == -1 
-                    //||
-                    //xizmatTuriComboFuqaro.SelectedIndex == -1 ||
-                    //kontraktComboFuqaro.SelectedIndex == -1 ||
-                    //xizmatJoyiComboFuqaro.SelectedIndex == -1
                     )
                 {
                     MessageBox.Show("Iltimos maydonlarni to'ldiring", "Eslatma");
@@ -197,8 +195,6 @@ namespace HarbiyRoyxatgaOlish.Forms
                         yoshiTextFuqaro.Text = "";
                         boyiTextFuqaro.Text = "";
                         vazniTextFuqaro.Text = "";
-                        //tashxisComboFuqaro.SelectedIndex = -1;
-                        //xizmatTuriComboFuqaro.SelectedIndex = -1;
                         kontraktComboFuqaro.SelectedIndex = -1;
                         xizmatJoyiComboFuqaro.SelectedIndex = -1;
                         xizmatTuriComboFuqaro.Enabled = false;
@@ -224,7 +220,6 @@ namespace HarbiyRoyxatgaOlish.Forms
             }
             else
             {
-                //kontraktComboFuqaro.SelectedIndex = -1;
                 kontraktComboFuqaro.Enabled = false;
                 
             }
@@ -239,7 +234,6 @@ namespace HarbiyRoyxatgaOlish.Forms
             }
             if(tashxisComboFuqaro.SelectedItem.ToString() == "Nosoglom")
             {
-                //xizmatTuriComboFuqaro.SelectedIndex = -1;
                 xizmatTuriComboFuqaro.Enabled = false;
                 xizmatJoyiComboFuqaro.Enabled = false;
             }
@@ -266,15 +260,6 @@ namespace HarbiyRoyxatgaOlish.Forms
                 {
                     int son = Convert.ToInt32(xizmatJoyiComboFuqaro.SelectedIndex.ToString());
                     string joy = xizmatJoyiComboFuqaro.Enabled ? dtable.Rows[son][1].ToString() : " ";
-                    //MessageBox.Show(
-                    //        boyiTextFuqaro.Text+"\n"+
-                    //        vazniTextFuqaro.Text + "\n" +
-                    //        tashxisComboFuqaro.SelectedItem.ToString() + "\n" +
-                    //        xizmatTuriComboFuqaro.SelectedItem.ToString() + "\n" +
-                    //        kontraktComboFuqaro.SelectedItem.ToString() + "\n" +
-                    //        joy + "\n" +
-                    //        KeyChaqiriluvchi.ToString()
-                    //                   );
                         string Query = "update Chaqirilganlar set Boyi='{0}', Vazni='{1}', Tashxis='{2}', XizmatTuri='{3}', Kontrakt='{4}', XizmatJoyi='{5}' where Id='{6}'";
                         Query = string.Format(Query,
                             boyiTextFuqaro.Text,
@@ -340,16 +325,19 @@ namespace HarbiyRoyxatgaOlish.Forms
         {
             try
             {
-                MailMessage xabar = new MailMessage("mahkamovabdussomad@gmail.com", KeyMessage);
+                MailMessage xabar = new MailMessage("murodovashahnoza0731@gmail.com", KeyMessage);
                 xabar.Subject = "Harbiy xizmat uchun chaqiruv";
                 xabar.Body = xabarTextFuqaro.Text;
                 SmtpClient smtp = new SmtpClient();
                 smtp.Host = "smtp.gmail.com";
                 smtp.Port = 587;
-                System.Net.NetworkCredential network = new NetworkCredential("mahkamovabdussomad@gmail.com", "pfhu xzvt ictg hlar");
+                System.Net.NetworkCredential network = new NetworkCredential("murodovashahnoza0731@gmail.com", "diqi gbma pdht nfke");
                 smtp.Credentials = network;
                 smtp.EnableSsl = true;
                 smtp.Send(xabar);
+                string Query = "insert into YuborilganXabarlar values('{0}', '{1}', '{2}', '{3}', '{4}', '{5}')";
+                Query = string.Format(Query, KeyFuqaro, KeyIsm, KeyFamilya, KeySharif, KeyMessage, xabarTextFuqaro.Text);
+                Con.SetData(Query);
                 MessageBox.Show("Xabar yuborildi", "Bildirishnoma");
                 fuqaroIdTextFuqaro.Text = "";
                 ismiTextFuqaro.Text = "";
@@ -358,6 +346,7 @@ namespace HarbiyRoyxatgaOlish.Forms
                 yoshiTextFuqaro.Text = "";
                 boyiTextFuqaro.Text = "";
                 vazniTextFuqaro.Text = "";
+                xabarTextFuqaro.Text = "";
                 KeyMessage = "";
                 KeyFuqaro = 0;
                 KeyChaqiriluvchi = 0;

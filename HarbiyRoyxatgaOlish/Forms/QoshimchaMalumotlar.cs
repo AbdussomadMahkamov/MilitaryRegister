@@ -19,12 +19,8 @@ namespace HarbiyRoyxatgaOlish.Forms
             Con = new Functions();
             ShowTable("Viloyat");
             GetViloyat();
-
             GetViloyatMahalla();
             GetTumanMahalla();
-
-            //GetViloyatFuqaro();
-            //GetTumanFuqaro();
             GetMahallaFuqaro();
         }
         public void ShowTable(string JadvalNomi)
@@ -50,8 +46,6 @@ namespace HarbiyRoyxatgaOlish.Forms
                 case "Fuqaro":
                     Query = "Select F.Id,F.Ism, F.Familya, F.Sharif, F.Jinsi, F.TugulganSana, F.Epochta, F.Yoshi, F.Manzili, Mahalla.Nomi, Tuman.Nomi, Viloyat.Nomi From Fuqarolar as F INNER JOIN Mahalla on Mahalla.Id=F.YashashManzilId INNER JOIN Tuman on Tuman.Id=Mahalla.TumanId INNER Join Viloyat on Viloyat.Id=Tuman.ViloyatId";
                     fuqaroData.DataSource = Con.GetData(Query);
-                    //GetViloyatFuqaro();
-                    //GetTumanFuqaro();
                     GetMahallaFuqaro();
                     break;
                 case "Users":
@@ -449,23 +443,6 @@ namespace HarbiyRoyxatgaOlish.Forms
                 MessageBox.Show(ex.Message, "Bildirishnoma", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-        //Mahalla oynasi yakunlandi.
-        //Fuqaro oynasi uchun
-
-        //private void GetViloyatFuqaro()
-        //{
-        //    string Query = "select * from Viloyat";
-        //    viloyatComboFuqaro.DisplayMember = Con.GetData(Query).Columns["Nomi"].ToString();
-        //    viloyatComboFuqaro.ValueMember = Con.GetData(Query).Columns["Id"].ToString();
-        //    viloyatComboFuqaro.DataSource = Con.GetData(Query);
-        //}
-        //private void GetTumanFuqaro()
-        //{
-        //    string Query = "select * from Tuman";
-        //    tumanComboFuqaro.DisplayMember = Con.GetData(Query).Columns["Nomi"].ToString();
-        //    tumanComboFuqaro.ValueMember = Con.GetData(Query).Columns["Id"].ToString();
-        //    tumanComboFuqaro.DataSource = Con.GetData(Query);
-        //}
 
         int KeyFuqaro = 0;
         private void GetMahallaFuqaro()
@@ -675,9 +652,5 @@ namespace HarbiyRoyxatgaOlish.Forms
                 MessageBox.Show(ex.Message, "Bildirishnoma", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-        //Fuqaro oynasi yakuni
-        //Users oynasi boshlanishi
-
-
     }
 }
