@@ -17,7 +17,9 @@ namespace HarbiyRoyxatgaOlish
         private string ConStr;
         public Functions()
         {
-            ConStr = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\HarbiyRoyxatDB.mdf;Integrated Security=True;Connect Timeout=30";
+            //ConStr = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\HarbiyRoyxatDB.mdf;Integrated Security=True;Connect Timeout=30";
+            //ConStr = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Abdussomad\source\repos\HarbiyRoyxatgaOlish\HarbiyRoyxatgaOlish\HarbiyRoyxatDB.mdf;Integrated Security=True;Connect Timeout=30";
+            ConStr = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\Abdussomad\Documents\HarbiyRoyxatDb.mdf;Integrated Security=True;Connect Timeout=30";
             Con = new SqlConnection(ConStr);
             Cmd = new SqlCommand();
             Cmd.Connection = Con;
